@@ -136,7 +136,11 @@ Until the article is published, please cite it as
 }
 ```
 
-The code itself is archived on Zenodo (DOI to appear).
+The code itself is archived on Zenodo under
+[10.5281/zenodo.23777983](https://doi.org/10.5281/zenodo.23777983), which
+resolves to the latest version. The version used for the article, v1.0.0, is
+[10.5281/zenodo.23777984](https://doi.org/10.5281/zenodo.23777984).
+`CITATION.cff` has the same information in machine-readable form.
 
 ## License
 

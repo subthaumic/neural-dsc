@@ -1,0 +1,30 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the article as below, and the code by its Zenodo DOI."
+title: "neural-dsc: Code, Networks and Results for The Tangled Web They Weave"
+type: software
+authors:
+  - family-names: Bleher
+    given-names: Michael
+    orcid: "https://orcid.org/0000-0002-7796-1665"
+    affiliation: "Institute for Mathematics, Heidelberg University"
+version: v1.0.0
+date-released: 2026-10-29
+doi: 10.5281/zenodo.23777983
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.23777983
+    description: "Concept DOI, resolves to the latest version"
+  - type: doi
+    value: 10.5281/zenodo.23777984
+    description: "Version v1.0.0, used for the article"
+repository-code: "https://github.com/subthaumic/neural-dsc"
+license: MIT
+preferred-citation:
+  type: generic
+  title: "The Tangled Web They Weave: Exploring Neural Representations with Directed Simplicial Complexes"
+  authors:
+    - family-names: Bleher
+      given-names: Michael
+      orcid: "https://orcid.org/0000-0002-7796-1665"
+  year: 2026
+  notes: "Accepted at NeurReps 2026; arXiv preprint to appear"
