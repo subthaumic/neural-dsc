@@ -1,0 +1,153 @@
+{
+  "method": {
+    "maximal_simplex": "not an order-preserving face of a higher-dimensional directed simplex",
+    "union_filtration": "minimum birth value across the two one-hot complexes",
+    "jaccard": "mean non-vertex sublevel-set distance on the 1001-point filtration grid"
+  },
+  "architectures": {
+    "quadrants_mono_handcrafted": {
+      "maximal_simplex_incidence_by_context": {
+        "Q1": {
+          "n1": 2,
+          "n2": 1,
+          "n3": 1,
+          "n4": 2,
+          "n5": 6,
+          "n6": 2,
+          "n8": 2
+        },
+        "Q2": {
+          "n1": 1,
+          "n2": 2,
+          "n3": 1,
+          "n4": 2,
+          "n5": 2,
+          "n6": 6,
+          "n7": 2
+        },
+        "Q3": {
+          "n1": 1,
+          "n2": 2,
+          "n3": 2,
+          "n4": 1,
+          "n6": 2,
+          "n7": 6,
+          "n8": 2
+        },
+        "Q4": {
+          "n1": 2,
+          "n2": 1,
+          "n3": 2,
+          "n4": 1,
+          "n5": 2,
+          "n7": 2,
+          "n8": 6
+        }
+      },
+      "maximal_simplex_incidence_total": {
+        "n1": 6,
+        "n2": 6,
+        "n3": 6,
+        "n4": 6,
+        "n5": 10,
+        "n6": 10,
+        "n7": 10,
+        "n8": 10
+      },
+      "contexts_with_maximal_simplex_incidence": {
+        "n1": 4,
+        "n2": 4,
+        "n3": 4,
+        "n4": 4,
+        "n5": 3,
+        "n6": 3,
+        "n7": 3,
+        "n8": 3
+      },
+      "twohot_vs_filtration_union": {
+        "Q1+Q2": {
+          "integrated_jaccard_distance": 0.6666712307105689,
+          "terminal_jaccard_distance": 0.5238095238095238
+        },
+        "Q1+Q4": {
+          "integrated_jaccard_distance": 0.6210506800808915,
+          "terminal_jaccard_distance": 0.5238095238095238
+        },
+        "Q2+Q3": {
+          "integrated_jaccard_distance": 0.678567869775253,
+          "terminal_jaccard_distance": 0.5238095238095238
+        },
+        "Q3+Q4": {
+          "integrated_jaccard_distance": 0.6279918700870536,
+          "terminal_jaccard_distance": 0.5238095238095238
+        }
+      }
+    },
+    "quadrants_poly_handcrafted": {
+      "maximal_simplex_incidence_by_context": {
+        "Q1": {
+          "n1": 2,
+          "n4": 2,
+          "n7": 2
+        },
+        "Q2": {
+          "n1": 2,
+          "n2": 2,
+          "n3": 2,
+          "n4": 2,
+          "n5": 2,
+          "n6": 2,
+          "n7": 2
+        },
+        "Q3": {
+          "n3": 2,
+          "n6": 2,
+          "n7": 2
+        },
+        "Q4": {
+          "n1": 3,
+          "n3": 3,
+          "n4": 3,
+          "n6": 3,
+          "n7": 8
+        }
+      },
+      "maximal_simplex_incidence_total": {
+        "n1": 7,
+        "n2": 2,
+        "n3": 7,
+        "n4": 7,
+        "n5": 2,
+        "n6": 7,
+        "n7": 14
+      },
+      "contexts_with_maximal_simplex_incidence": {
+        "n1": 3,
+        "n2": 1,
+        "n3": 3,
+        "n4": 3,
+        "n5": 1,
+        "n6": 3,
+        "n7": 4
+      },
+      "twohot_vs_filtration_union": {
+        "Q1+Q2": {
+          "integrated_jaccard_distance": 0.5442652585509724,
+          "terminal_jaccard_distance": 0.4285714285714286
+        },
+        "Q1+Q4": {
+          "integrated_jaccard_distance": 0.48914418914418906,
+          "terminal_jaccard_distance": 0.5
+        },
+        "Q2+Q3": {
+          "integrated_jaccard_distance": 0.5233195376052528,
+          "terminal_jaccard_distance": 0.7142857142857143
+        },
+        "Q3+Q4": {
+          "integrated_jaccard_distance": 0.514019314019314,
+          "terminal_jaccard_distance": 0.5
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,61 @@
+Silver Standard: DSC 1-skeletons against ACDC, EAP and EAP-IG
+======================================================================
+
+Overlap statistics are restricted to the forward-adjacent sub-relation,
+the only part of a DSC's 1-skeleton any weight-graph method is able to
+express. The share of the skeleton that lies there is the ceiling column.
+
+mono handcrafted (8 internal neurons)
+----------------------------------------------------------------------
+  class_0: 10 DSC edges (4 fwd / 2 within / 4 other), ceiling 40%
+    acdc         circuit 10/16 shared 4  recall 1.00  J 0.40  AUC 0.83
+    eap          circuit 10/16 shared 4  recall 1.00  J 0.40  AUC 0.69
+    eap_ig       circuit 10/16 shared 4  recall 1.00  J 0.40  AUC 0.83
+    eap_ig_kl    circuit 10/16 shared 4  recall 1.00  J 0.40  AUC 0.83
+    baseline-vs-baseline J: acdc|eap 0.43, acdc|eap_ig 0.67, acdc|eap_ig_kl 0.67, eap|eap_ig 0.43, eap|eap_ig_kl 0.43, eap_ig|eap_ig_kl 1.00
+  class_1: 10 DSC edges (4 fwd / 2 within / 4 other), ceiling 40%
+    acdc         circuit  8/16 shared 4  recall 1.00  J 0.50  AUC 0.83
+    eap          circuit  8/16 shared 2  recall 0.50  J 0.20  AUC 0.67
+    eap_ig       circuit  8/16 shared 4  recall 1.00  J 0.50  AUC 0.83
+    eap_ig_kl    circuit  8/16 shared 4  recall 1.00  J 0.50  AUC 0.83
+    baseline-vs-baseline J: acdc|eap 0.33, acdc|eap_ig 0.60, acdc|eap_ig_kl 0.78, eap|eap_ig 0.33, eap|eap_ig_kl 0.33, eap_ig|eap_ig_kl 0.78
+  class_2: 10 DSC edges (4 fwd / 2 within / 4 other), ceiling 40%
+    acdc         circuit  8/16 shared 4  recall 1.00  J 0.50  AUC 0.81
+    eap          circuit  8/16 shared 3  recall 0.75  J 0.33  AUC 0.69
+    eap_ig       circuit  8/16 shared 4  recall 1.00  J 0.50  AUC 0.83
+    eap_ig_kl    circuit  8/16 shared 4  recall 1.00  J 0.50  AUC 0.83
+    baseline-vs-baseline J: acdc|eap 0.45, acdc|eap_ig 0.78, acdc|eap_ig_kl 0.78, eap|eap_ig 0.60, eap|eap_ig_kl 0.60, eap_ig|eap_ig_kl 1.00
+  class_3: 10 DSC edges (4 fwd / 2 within / 4 other), ceiling 40%
+    acdc         circuit  9/16 shared 4  recall 1.00  J 0.44  AUC 0.81
+    eap          circuit  9/16 shared 3  recall 0.75  J 0.30  AUC 0.65
+    eap_ig       circuit  9/16 shared 4  recall 1.00  J 0.44  AUC 0.83
+    eap_ig_kl    circuit  9/16 shared 4  recall 1.00  J 0.44  AUC 0.83
+    baseline-vs-baseline J: acdc|eap 0.38, acdc|eap_ig 0.64, acdc|eap_ig_kl 0.80, eap|eap_ig 0.38, eap|eap_ig_kl 0.38, eap_ig|eap_ig_kl 0.80
+
+poly handcrafted (7 internal neurons)
+----------------------------------------------------------------------
+  class_0: 4 DSC edges (2 fwd / 1 within / 1 other), ceiling 50%
+    acdc         circuit  4/12 shared 2  recall 1.00  J 0.50  AUC 0.90
+    eap          circuit  4/12 shared 2  recall 1.00  J 0.50  AUC 0.95
+    eap_ig       circuit  4/12 shared 2  recall 1.00  J 0.50  AUC 1.00
+    eap_ig_kl    circuit  4/12 shared 2  recall 1.00  J 0.50  AUC 0.95
+    baseline-vs-baseline J: acdc|eap 0.33, acdc|eap_ig 0.60, acdc|eap_ig_kl 1.00, eap|eap_ig 0.60, eap|eap_ig_kl 0.33, eap_ig|eap_ig_kl 0.60
+  class_1: 8 DSC edges (4 fwd / 1 within / 3 other), ceiling 50%
+    acdc         circuit  4/12 shared 4  recall 1.00  J 1.00  AUC 1.00
+    eap          circuit  4/12 shared 4  recall 1.00  J 1.00  AUC 1.00
+    eap_ig       circuit  4/12 shared 4  recall 1.00  J 1.00  AUC 1.00
+    eap_ig_kl    circuit  4/12 shared 4  recall 1.00  J 1.00  AUC 1.00
+    baseline-vs-baseline J: acdc|eap 1.00, acdc|eap_ig 1.00, acdc|eap_ig_kl 1.00, eap|eap_ig 1.00, eap|eap_ig_kl 1.00, eap_ig|eap_ig_kl 1.00
+  class_2: 4 DSC edges (2 fwd / 1 within / 1 other), ceiling 50%
+    acdc         circuit  3/12 shared 1  recall 0.50  J 0.25  AUC 0.90
+    eap          circuit  3/12 shared 1  recall 0.50  J 0.25  AUC 0.85
+    eap_ig       circuit  3/12 shared 2  recall 1.00  J 0.67  AUC 0.95
+    eap_ig_kl    circuit  3/12 shared 1  recall 0.50  J 0.25  AUC 0.90
+    baseline-vs-baseline J: acdc|eap 0.50, acdc|eap_ig 0.50, acdc|eap_ig_kl 1.00, eap|eap_ig 0.50, eap|eap_ig_kl 0.50, eap_ig|eap_ig_kl 0.50
+  class_3: 12 DSC edges (4 fwd / 4 within / 4 other), ceiling 33%
+    acdc         circuit  6/12 shared 4  recall 1.00  J 0.67  AUC 0.81
+    eap          circuit  6/12 shared 4  recall 1.00  J 0.67  AUC 0.88
+    eap_ig       circuit  6/12 shared 4  recall 1.00  J 0.67  AUC 0.88
+    eap_ig_kl    circuit  6/12 shared 4  recall 1.00  J 0.67  AUC 0.94
+    baseline-vs-baseline J: acdc|eap 1.00, acdc|eap_ig 1.00, acdc|eap_ig_kl 1.00, eap|eap_ig 1.00, eap|eap_ig_kl 1.00, eap_ig|eap_ig_kl 1.00
+

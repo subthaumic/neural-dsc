@@ -1,0 +1,27 @@
+{
+  "checkpoint_sha256": "23b724206a03789c66f2886f6758583d13cf18cc0a6465602dfdf37b6200eb70",
+  "config": {
+    "architecture": "mono-capacity",
+    "batch_size": 256,
+    "epochs": 200,
+    "eval_data_seed": 43,
+    "eval_size": 100000,
+    "layer_sizes": [
+      2,
+      4,
+      4,
+      4
+    ],
+    "learning_rate": 0.005,
+    "model_seed": 1,
+    "train_data_seed": 42,
+    "train_draws_per_epoch": 10000,
+    "train_sampling": "fresh_uniform_draws_per_minibatch"
+  },
+  "metrics_at_creation": {
+    "eval_accuracy": 0.99875,
+    "eval_loss": 0.004542393060401082,
+    "final_epoch_train_loss": 0.004653412299277261
+  },
+  "schema_version": 2
+}

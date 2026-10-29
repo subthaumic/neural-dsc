@@ -1,0 +1,22 @@
+{
+  "method": {
+    "id": "filtration_integrated_1001_nonvertex_v1",
+    "quantity": "distance",
+    "filtration_domain": [
+      0.0,
+      1.0
+    ],
+    "filtration_intervals": 1000,
+    "filtration_points": 1001,
+    "vertices_included": false
+  },
+  "matrix": [
+    [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  ],
+  "by_dimension": {}
+}

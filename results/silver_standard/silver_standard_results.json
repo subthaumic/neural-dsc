@@ -1,0 +1,2606 @@
+{
+  "mono": {
+    "classes": {
+      "class_0": {
+        "baseline_agreement": {
+          "acdc|eap": 0.42857142857142855,
+          "acdc|eap_ig": 0.6666666666666666,
+          "acdc|eap_ig_kl": 0.6666666666666666,
+          "eap_ig|eap_ig_kl": 1.0,
+          "eap|eap_ig": 0.42857142857142855,
+          "eap|eap_ig_kl": 0.42857142857142855
+        },
+        "baselines": {
+          "acdc": {
+            "baseline_only": [
+              [
+                1,
+                4
+              ],
+              [
+                1,
+                5
+              ],
+              [
+                1,
+                6
+              ],
+              [
+                2,
+                4
+              ],
+              [
+                2,
+                6
+              ],
+              [
+                2,
+                7
+              ]
+            ],
+            "circuit": [
+              [
+                0,
+                4
+              ],
+              [
+                0,
+                5
+              ],
+              [
+                1,
+                4
+              ],
+              [
+                1,
+                5
+              ],
+              [
+                1,
+                6
+              ],
+              [
+                2,
+                4
+              ],
+              [
+                2,
+                6
+              ],
+              [
+                2,
+                7
+              ],
+              [
+                3,
+                4
+              ],
+              [
+                3,
+                7
+              ]
+            ],
+            "dsc_contained_in_baseline": true,
+            "dsc_only": [],
+            "jaccard_restricted": 0.4,
+            "membership_auc": 0.8333333333333334,
+            "n_circuit_edges": 10,
+            "recall_of_dsc": 1.0,
+            "shared": [
+              [
+                0,
+                4
+              ],
+              [
+                0,
+                5
+              ],
+              [
+                3,
+                4
+              ],
+              [
+                3,
+                7
+              ]
+            ]
+          },
+          "eap": {
+            "baseline_only": [
+              [
+                0,
+                7
+              ],
+              [
+                1,
+                4
+              ],
+              [
+                1,
+                7
+              ],
+              [
+                2,
+                4
+              ],
+              [
+                2,
+                5
+              ],
+              [
+                3,
+                5
+              ]
+            ],
+            "circuit": [
+              [
+                0,
+                4
+              ],
+              [
+                0,
+                5
+              ],
+              [
+                0,
+                7
+              ],
+              [
+                1,
+                4
+              ],
+              [
+                1,
+                7
+              ],
+              [
+                2,
+                4
+              ],
+              [
+                2,
+                5
+              ],
+              [
+                3,
+                4
+              ],
+              [
+                3,
+                5
+              ],
+              [
+                3,
+                7
+              ]
+            ],
+            "dsc_contained_in_baseline": true,
+            "dsc_only": [],
+            "jaccard_restricted": 0.4,
+            "membership_auc": 0.6875,
+            "n_circuit_edges": 10,
+            "recall_of_dsc": 1.0,
+            "shared": [
+              [
+                0,
+                4
+              ],
+              [
+                0,
+                5
+              ],
+              [
+                3,
+                4
+              ],
+              [
+                3,
+                7
+              ]
+            ]
+          },
+          "eap_ig": {
+            "baseline_only": [
+              [
+                0,
+                6
+              ],
+              [
+                1,
+                4
+              ],
+              [
+                1,
+                5
+              ],
+              [
+                2,
+                4
+              ],
+              [
+                2,
+                7
+              ],
+              [
+                3,
+                6
+              ]
+            ],
+            "circuit": [
+              [
+                0,
+                4
+              ],
+              [
+                0,
+                5
+              ],
+              [
+                0,
+                6
+              ],
+              [
+                1,
+                4
+              ],
+              [
+                1,
+                5
+              ],
+              [
+                2,
+                4
+              ],
+              [
+                2,
+                7
+              ],
+              [
+                3,
+                4
+              ],
+              [
+                3,
+                6
+              ],
+              [
+                3,
+                7
+              ]
+            ],
+            "dsc_contained_in_baseline": true,
+            "dsc_only": [],
+            "jaccard_restricted": 0.4,
+            "membership_auc": 0.8333333333333334,
+            "n_circuit_edges": 10,
+            "recall_of_dsc": 1.0,
+            "shared": [
+              [
+                0,
+                4
+              ],
+              [
+                0,
+                5
+              ],
+              [
+                3,
+                4
+              ],
+              [
+                3,
+                7
+              ]
+            ]
+          },
+          "eap_ig_kl": {
+            "baseline_only": [
+              [
+                0,
+                6
+              ],
+              [
+                1,
+                4
+              ],
+              [
+                1,
+                5
+              ],
+              [
+                2,
+                4
+              ],
+              [
+                2,
+                7
+              ],
+              [
+                3,
+                6
+              ]
+            ],
+            "circuit": [
+              [
+                0,
+                4
+              ],
+              [
+                0,
+                5
+              ],
+              [
+                0,
+                6
+              ],
+              [
+                1,
+                4
+              ],
+              [
+                1,
+                5
+              ],
+              [
+                2,
+                4
+              ],
+              [
+                2,
+                7
+              ],
+              [
+                3,
+                4
+              ],
+              [
+                3,
+                6
+              ],
+              [
+                3,
+                7
+              ]
+            ],
+            "dsc_contained_in_baseline": true,
+            "dsc_only": [],
+            "jaccard_restricted": 0.4,
+            "membership_auc": 0.8333333333333334,
+            "n_circuit_edges": 10,
+            "recall_of_dsc": 1.0,
+            "shared": [
+              [
+                0,
+                4
+              ],
+              [
+                0,
+                5
+              ],
+              [
+                3,
+                4
+              ],
+              [
+                3,
+                7
+              ]
+            ]
+          }
+        },
+        "diagnostics": {
+          "acdc_final_metric": 0.0003065649652853608,
+          "acdc_iterations": 7,
+          "clean_accuracy": 1.0,
+          "corrupted_accuracy": 0.0,
+          "matched_sparsity_k": 10,
+          "n_representable_edges": 16,
+          "performance_drop": 1.0
+        },
+        "dsc_filtration": {
+          "(0, 4)": 0.008,
+          "(0, 5)": 0.171,
+          "(3, 4)": 0.008,
+          "(3, 7)": 0.148,
+          "(4, 0)": 0.005,
+          "(4, 1)": 0.982,
+          "(4, 2)": 0.966,
+          "(4, 3)": 0.004,
+          "(4, 5)": 0.84,
+          "(4, 7)": 0.712
+        },
+        "dsc_forward_adjacent": [
+          [
+            0,
+            4
+          ],
+          [
+            0,
+            5
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            3,
+            7
+          ]
+        ],
+        "n_by_relation_kind": {
+          "forward_adjacent": 4,
+          "other": 4,
+          "within_layer": 2
+        },
+        "n_dsc_edges": 10,
+        "n_representable_edges": 16,
+        "representable_ceiling": 0.4
+      },
+      "class_1": {
+        "baseline_agreement": {
+          "acdc|eap": 0.3333333333333333,
+          "acdc|eap_ig": 0.6,
+          "acdc|eap_ig_kl": 0.7777777777777778,
+          "eap_ig|eap_ig_kl": 0.7777777777777778,
+          "eap|eap_ig": 0.3333333333333333,
+          "eap|eap_ig_kl": 0.3333333333333333
+        },
+        "baselines": {
+          "acdc": {
+            "baseline_only": [
+              [
+                0,
+                5
+              ],
+              [
+                1,
+                7
+              ],
+              [
+                2,
+                5
+              ],
+              [
+                3,
+                7
+              ]
+            ],
+            "circuit": [
+              [
+                0,
+                5
+              ],
+              [
+                1,
+                4
+              ],
+              [
+                1,
+                5
+              ],
+              [
+                1,
+                7
+              ],
+              [
+                2,
+                5
+              ],
+              [
+                3,
+                5
+              ],
+              [
+                3,
+                6
+              ],
+              [
+                3,
+                7
+              ]
+            ],
+            "dsc_contained_in_baseline": true,
+            "dsc_only": [],
+            "jaccard_restricted": 0.5,
+            "membership_auc": 0.8333333333333334,
+            "n_circuit_edges": 8,
+            "recall_of_dsc": 1.0,
+            "shared": [
+              [
+                1,
+                4
+              ],
+              [
+                1,
+                5
+              ],
+              [
+                3,
+                5
+              ],
+              [
+                3,
+                6
+              ]
+            ]
+          },
+          "eap": {
+            "baseline_only": [
+              [
+                0,
+                5
+              ],
+              [
+                0,
+                6
+              ],
+              [
+                1,
+                6
+              ],
+              [
+                2,
+                4
+              ],
+              [
+                2,
+                5
+              ],
+              [
+                3,
+                4
+              ]
+            ],
+            "circuit": [
+              [
+                0,
+                5
+              ],
+              [
+                0,
+                6
+              ],
+              [
+                1,
+                5
+              ],
+              [
+                1,
+                6
+              ],
+              [
+                2,
+                4
+              ],
+              [
+                2,
+                5
+              ],
+              [
+                3,
+                4
+              ],
+              [
+                3,
+                5
+              ]
+            ],
+            "dsc_contained_in_baseline": false,
+            "dsc_only": [
+              [
+                1,
+                4
+              ],
+              [
+                3,
+                6
+              ]
+            ],
+            "jaccard_restricted": 0.2,
+            "membership_auc": 0.6666666666666666,
+            "n_circuit_edges": 8,
+            "recall_of_dsc": 0.5,
+            "shared": [
+              [
+                1,
+                5
+              ],
+              [
+                3,
+                5
+              ]
+            ]
+          },
+          "eap_ig": {
+            "baseline_only": [
+              [
+                0,
+                4
+              ],
+              [
+                0,
+                5
+              ],
+              [
+                2,
+                5
+              ],
+              [
+                2,
+                6
+              ]
+            ],
+            "circuit": [
+              [
+                0,
+                4
+              ],
+              [
+                0,
+                5
+              ],
+              [
+                1,
+                4
+              ],
+              [
+                1,
+                5
+              ],
+              [
+                2,
+                5
+              ],
+              [
+                2,
+                6
+              ],
+              [
+                3,
+                5
+              ],
+              [
+                3,
+                6
+              ]
+            ],
+            "dsc_contained_in_baseline": true,
+            "dsc_only": [],
+            "jaccard_restricted": 0.5,
+            "membership_auc": 0.8333333333333334,
+            "n_circuit_edges": 8,
+            "recall_of_dsc": 1.0,
+            "shared": [
+              [
+                1,
+                4
+              ],
+              [
+                1,
+                5
+              ],
+              [
+                3,
+                5
+              ],
+              [
+                3,
+                6
+              ]
+            ]
+          },
+          "eap_ig_kl": {
+            "baseline_only": [
+              [
+                0,
+                5
+              ],
+              [
+                2,
+                5
+              ],
+              [
+                2,
+                6
+              ],
+              [
+                3,
+                7
+              ]
+            ],
+            "circuit": [
+              [
+                0,
+                5
+              ],
+              [
+                1,
+                4
+              ],
+              [
+                1,
+                5
+              ],
+              [
+                2,
+                5
+              ],
+              [
+                2,
+                6
+              ],
+              [
+                3,
+                5
+              ],
+              [
+                3,
+                6
+              ],
+              [
+                3,
+                7
+              ]
+            ],
+            "dsc_contained_in_baseline": true,
+            "dsc_only": [],
+            "jaccard_restricted": 0.5,
+            "membership_auc": 0.8333333333333334,
+            "n_circuit_edges": 8,
+            "recall_of_dsc": 1.0,
+            "shared": [
+              [
+                1,
+                4
+              ],
+              [
+                1,
+                5
+              ],
+              [
+                3,
+                5
+              ],
+              [
+                3,
+                6
+              ]
+            ]
+          }
+        },
+        "diagnostics": {
+          "acdc_final_metric": 0.017150679603219032,
+          "acdc_iterations": 9,
+          "clean_accuracy": 1.0,
+          "corrupted_accuracy": 0.0,
+          "matched_sparsity_k": 8,
+          "n_representable_edges": 16,
+          "performance_drop": 1.0
+        },
+        "dsc_filtration": {
+          "(1, 4)": 0.176,
+          "(1, 5)": 0.009,
+          "(3, 5)": 0.009,
+          "(3, 6)": 0.16,
+          "(5, 0)": 0.985,
+          "(5, 1)": 0.005,
+          "(5, 2)": 0.975,
+          "(5, 3)": 0.005,
+          "(5, 4)": 0.872,
+          "(5, 6)": 0.786
+        },
+        "dsc_forward_adjacent": [
+          [
+            1,
+            4
+          ],
+          [
+            1,
+            5
+          ],
+          [
+            3,
+            5
+          ],
+          [
+            3,
+            6
+          ]
+        ],
+        "n_by_relation_kind": {
+          "forward_adjacent": 4,
+          "other": 4,
+          "within_layer": 2
+        },
+        "n_dsc_edges": 10,
+        "n_representable_edges": 16,
+        "representable_ceiling": 0.4
+      },
+      "class_2": {
+        "baseline_agreement": {
+          "acdc|eap": 0.45454545454545453,
+          "acdc|eap_ig": 0.7777777777777778,
+          "acdc|eap_ig_kl": 0.7777777777777778,
+          "eap_ig|eap_ig_kl": 1.0,
+          "eap|eap_ig": 0.6,
+          "eap|eap_ig_kl": 0.6
+        },
+        "baselines": {
+          "acdc": {
+            "baseline_only": [
+              [
+                0,
+                6
+              ],
+              [
+                2,
+                4
+              ],
+              [
+                3,
+                5
+              ],
+              [
+                3,
+                6
+              ]
+            ],
+            "circuit": [
+              [
+                0,
+                6
+              ],
+              [
+                1,
+                6
+              ],
+              [
+                1,
+                7
+              ],
+              [
+                2,
+                4
+              ],
+              [
+                2,
+                5
+              ],
+              [
+                2,
+                6
+              ],
+              [
+                3,
+                5
+              ],
+              [
+                3,
+                6
+              ]
+            ],
+            "dsc_contained_in_baseline": true,
+            "dsc_only": [],
+            "jaccard_restricted": 0.5,
+            "membership_auc": 0.8125,
+            "n_circuit_edges": 8,
+            "recall_of_dsc": 1.0,
+            "shared": [
+              [
+                1,
+                6
+              ],
+              [
+                1,
+                7
+              ],
+              [
+                2,
+                5
+              ],
+              [
+                2,
+                6
+              ]
+            ]
+          },
+          "eap": {
+            "baseline_only": [
+              [
+                0,
+                6
+              ],
+              [
+                0,
+                7
+              ],
+              [
+                2,
+                7
+              ],
+              [
+                3,
+                6
+              ],
+              [
+                3,
+                7
+              ]
+            ],
+            "circuit": [
+              [
+                0,
+                6
+              ],
+              [
+                0,
+                7
+              ],
+              [
+                1,
+                6
+              ],
+              [
+                1,
+                7
+              ],
+              [
+                2,
+                6
+              ],
+              [
+                2,
+                7
+              ],
+              [
+                3,
+                6
+              ],
+              [
+                3,
+                7
+              ]
+            ],
+            "dsc_contained_in_baseline": false,
+            "dsc_only": [
+              [
+                2,
+                5
+              ]
+            ],
+            "jaccard_restricted": 0.3333333333333333,
+            "membership_auc": 0.6875,
+            "n_circuit_edges": 8,
+            "recall_of_dsc": 0.75,
+            "shared": [
+              [
+                1,
+                6
+              ],
+              [
+                1,
+                7
+              ],
+              [
+                2,
+                6
+              ]
+            ]
+          },
+          "eap_ig": {
+            "baseline_only": [
+              [
+                0,
+                6
+              ],
+              [
+                0,
+                7
+              ],
+              [
+                3,
+                5
+              ],
+              [
+                3,
+                6
+              ]
+            ],
+            "circuit": [
+              [
+                0,
+                6
+              ],
+              [
+                0,
+                7
+              ],
+              [
+                1,
+                6
+              ],
+              [
+                1,
+                7
+              ],
+              [
+                2,
+                5
+              ],
+              [
+                2,
+                6
+              ],
+              [
+                3,
+                5
+              ],
+              [
+                3,
+                6
+              ]
+            ],
+            "dsc_contained_in_baseline": true,
+            "dsc_only": [],
+            "jaccard_restricted": 0.5,
+            "membership_auc": 0.8333333333333334,
+            "n_circuit_edges": 8,
+            "recall_of_dsc": 1.0,
+            "shared": [
+              [
+                1,
+                6
+              ],
+              [
+                1,
+                7
+              ],
+              [
+                2,
+                5
+              ],
+              [
+                2,
+                6
+              ]
+            ]
+          },
+          "eap_ig_kl": {
+            "baseline_only": [
+              [
+                0,
+                6
+              ],
+              [
+                0,
+                7
+              ],
+              [
+                3,
+                5
+              ],
+              [
+                3,
+                6
+              ]
+            ],
+            "circuit": [
+              [
+                0,
+                6
+              ],
+              [
+                0,
+                7
+              ],
+              [
+                1,
+                6
+              ],
+              [
+                1,
+                7
+              ],
+              [
+                2,
+                5
+              ],
+              [
+                2,
+                6
+              ],
+              [
+                3,
+                5
+              ],
+              [
+                3,
+                6
+              ]
+            ],
+            "dsc_contained_in_baseline": true,
+            "dsc_only": [],
+            "jaccard_restricted": 0.5,
+            "membership_auc": 0.8333333333333334,
+            "n_circuit_edges": 8,
+            "recall_of_dsc": 1.0,
+            "shared": [
+              [
+                1,
+                6
+              ],
+              [
+                1,
+                7
+              ],
+              [
+                2,
+                5
+              ],
+              [
+                2,
+                6
+              ]
+            ]
+          }
+        },
+        "diagnostics": {
+          "acdc_final_metric": 0.018439028412103653,
+          "acdc_iterations": 9,
+          "clean_accuracy": 1.0,
+          "corrupted_accuracy": 0.0,
+          "matched_sparsity_k": 8,
+          "n_representable_edges": 16,
+          "performance_drop": 1.0
+        },
+        "dsc_filtration": {
+          "(1, 6)": 0.008,
+          "(1, 7)": 0.1,
+          "(2, 5)": 0.19,
+          "(2, 6)": 0.008,
+          "(6, 0)": 0.94,
+          "(6, 1)": 0.004,
+          "(6, 2)": 0.005,
+          "(6, 3)": 0.994,
+          "(6, 5)": 0.95,
+          "(6, 7)": 0.481
+        },
+        "dsc_forward_adjacent": [
+          [
+            1,
+            6
+          ],
+          [
+            1,
+            7
+          ],
+          [
+            2,
+            5
+          ],
+          [
+            2,
+            6
+          ]
+        ],
+        "n_by_relation_kind": {
+          "forward_adjacent": 4,
+          "other": 4,
+          "within_layer": 2
+        },
+        "n_dsc_edges": 10,
+        "n_representable_edges": 16,
+        "representable_ceiling": 0.4
+      },
+      "class_3": {
+        "baseline_agreement": {
+          "acdc|eap": 0.38461538461538464,
+          "acdc|eap_ig": 0.6363636363636364,
+          "acdc|eap_ig_kl": 0.8,
+          "eap_ig|eap_ig_kl": 0.8,
+          "eap|eap_ig": 0.38461538461538464,
+          "eap|eap_ig_kl": 0.38461538461538464
+        },
+        "baselines": {
+          "acdc": {
+            "baseline_only": [
+              [
+                1,
+                5
+              ],
+              [
+                1,
+                6
+              ],
+              [
+                1,
+                7
+              ],
+              [
+                2,
+                5
+              ],
+              [
+                3,
+                7
+              ]
+            ],
+            "circuit": [
+              [
+                0,
+                6
+              ],
+              [
+                0,
+                7
+              ],
+              [
+                1,
+                5
+              ],
+              [
+                1,
+                6
+              ],
+              [
+                1,
+                7
+              ],
+              [
+                2,
+                4
+              ],
+              [
+                2,
+                5
+              ],
+              [
+                2,
+                7
+              ],
+              [
+                3,
+                7
+              ]
+            ],
+            "dsc_contained_in_baseline": true,
+            "dsc_only": [],
+            "jaccard_restricted": 0.4444444444444444,
+            "membership_auc": 0.8125,
+            "n_circuit_edges": 9,
+            "recall_of_dsc": 1.0,
+            "shared": [
+              [
+                0,
+                6
+              ],
+              [
+                0,
+                7
+              ],
+              [
+                2,
+                4
+              ],
+              [
+                2,
+                7
+              ]
+            ]
+          },
+          "eap": {
+            "baseline_only": [
+              [
+                0,
+                4
+              ],
+              [
+                1,
+                4
+              ],
+              [
+                1,
+                7
+              ],
+              [
+                2,
+                6
+              ],
+              [
+                3,
+                6
+              ],
+              [
+                3,
+                7
+              ]
+            ],
+            "circuit": [
+              [
+                0,
+                4
+              ],
+              [
+                0,
+                7
+              ],
+              [
+                1,
+                4
+              ],
+              [
+                1,
+                7
+              ],
+              [
+                2,
+                4
+              ],
+              [
+                2,
+                6
+              ],
+              [
+                2,
+                7
+              ],
+              [
+                3,
+                6
+              ],
+              [
+                3,
+                7
+              ]
+            ],
+            "dsc_contained_in_baseline": false,
+            "dsc_only": [
+              [
+                0,
+                6
+              ]
+            ],
+            "jaccard_restricted": 0.3,
+            "membership_auc": 0.6458333333333334,
+            "n_circuit_edges": 9,
+            "recall_of_dsc": 0.75,
+            "shared": [
+              [
+                0,
+                7
+              ],
+              [
+                2,
+                4
+              ],
+              [
+                2,
+                7
+              ]
+            ]
+          },
+          "eap_ig": {
+            "baseline_only": [
+              [
+                0,
+                5
+              ],
+              [
+                1,
+                6
+              ],
+              [
+                1,
+                7
+              ],
+              [
+                3,
+                4
+              ],
+              [
+                3,
+                7
+              ]
+            ],
+            "circuit": [
+              [
+                0,
+                5
+              ],
+              [
+                0,
+                6
+              ],
+              [
+                0,
+                7
+              ],
+              [
+                1,
+                6
+              ],
+              [
+                1,
+                7
+              ],
+              [
+                2,
+                4
+              ],
+              [
+                2,
+                7
+              ],
+              [
+                3,
+                4
+              ],
+              [
+                3,
+                7
+              ]
+            ],
+            "dsc_contained_in_baseline": true,
+            "dsc_only": [],
+            "jaccard_restricted": 0.4444444444444444,
+            "membership_auc": 0.8333333333333334,
+            "n_circuit_edges": 9,
+            "recall_of_dsc": 1.0,
+            "shared": [
+              [
+                0,
+                6
+              ],
+              [
+                0,
+                7
+              ],
+              [
+                2,
+                4
+              ],
+              [
+                2,
+                7
+              ]
+            ]
+          },
+          "eap_ig_kl": {
+            "baseline_only": [
+              [
+                0,
+                5
+              ],
+              [
+                1,
+                6
+              ],
+              [
+                1,
+                7
+              ],
+              [
+                2,
+                5
+              ],
+              [
+                3,
+                7
+              ]
+            ],
+            "circuit": [
+              [
+                0,
+                5
+              ],
+              [
+                0,
+                6
+              ],
+              [
+                0,
+                7
+              ],
+              [
+                1,
+                6
+              ],
+              [
+                1,
+                7
+              ],
+              [
+                2,
+                4
+              ],
+              [
+                2,
+                5
+              ],
+              [
+                2,
+                7
+              ],
+              [
+                3,
+                7
+              ]
+            ],
+            "dsc_contained_in_baseline": true,
+            "dsc_only": [],
+            "jaccard_restricted": 0.4444444444444444,
+            "membership_auc": 0.8333333333333334,
+            "n_circuit_edges": 9,
+            "recall_of_dsc": 1.0,
+            "shared": [
+              [
+                0,
+                6
+              ],
+              [
+                0,
+                7
+              ],
+              [
+                2,
+                4
+              ],
+              [
+                2,
+                7
+              ]
+            ]
+          }
+        },
+        "diagnostics": {
+          "acdc_final_metric": 0.009621957316994667,
+          "acdc_iterations": 8,
+          "clean_accuracy": 1.0,
+          "corrupted_accuracy": 0.0,
+          "matched_sparsity_k": 9,
+          "n_representable_edges": 16,
+          "performance_drop": 1.0
+        },
+        "dsc_filtration": {
+          "(0, 6)": 0.17,
+          "(0, 7)": 0.008,
+          "(2, 4)": 0.1,
+          "(2, 7)": 0.008,
+          "(7, 0)": 0.005,
+          "(7, 1)": 0.981,
+          "(7, 2)": 0.004,
+          "(7, 3)": 0.941,
+          "(7, 4)": 0.473,
+          "(7, 6)": 0.838
+        },
+        "dsc_forward_adjacent": [
+          [
+            0,
+            6
+          ],
+          [
+            0,
+            7
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            2,
+            7
+          ]
+        ],
+        "n_by_relation_kind": {
+          "forward_adjacent": 4,
+          "other": 4,
+          "within_layer": 2
+        },
+        "n_dsc_edges": 10,
+        "n_representable_edges": 16,
+        "representable_ceiling": 0.4
+      }
+    },
+    "hidden_sizes": [
+      4,
+      4
+    ],
+    "internal_neurons": 8
+  },
+  "poly": {
+    "classes": {
+      "class_0": {
+        "baseline_agreement": {
+          "acdc|eap": 0.3333333333333333,
+          "acdc|eap_ig": 0.6,
+          "acdc|eap_ig_kl": 1.0,
+          "eap_ig|eap_ig_kl": 0.6,
+          "eap|eap_ig": 0.6,
+          "eap|eap_ig_kl": 0.3333333333333333
+        },
+        "baselines": {
+          "acdc": {
+            "baseline_only": [
+              [
+                1,
+                4
+              ],
+              [
+                2,
+                5
+              ]
+            ],
+            "circuit": [
+              [
+                0,
+                3
+              ],
+              [
+                0,
+                6
+              ],
+              [
+                1,
+                4
+              ],
+              [
+                2,
+                5
+              ]
+            ],
+            "dsc_contained_in_baseline": true,
+            "dsc_only": [],
+            "jaccard_restricted": 0.5,
+            "membership_auc": 0.9,
+            "n_circuit_edges": 4,
+            "recall_of_dsc": 1.0,
+            "shared": [
+              [
+                0,
+                3
+              ],
+              [
+                0,
+                6
+              ]
+            ]
+          },
+          "eap": {
+            "baseline_only": [
+              [
+                1,
+                6
+              ],
+              [
+                2,
+                6
+              ]
+            ],
+            "circuit": [
+              [
+                0,
+                3
+              ],
+              [
+                0,
+                6
+              ],
+              [
+                1,
+                6
+              ],
+              [
+                2,
+                6
+              ]
+            ],
+            "dsc_contained_in_baseline": true,
+            "dsc_only": [],
+            "jaccard_restricted": 0.5,
+            "membership_auc": 0.95,
+            "n_circuit_edges": 4,
+            "recall_of_dsc": 1.0,
+            "shared": [
+              [
+                0,
+                3
+              ],
+              [
+                0,
+                6
+              ]
+            ]
+          },
+          "eap_ig": {
+            "baseline_only": [
+              [
+                1,
+                4
+              ],
+              [
+                2,
+                6
+              ]
+            ],
+            "circuit": [
+              [
+                0,
+                3
+              ],
+              [
+                0,
+                6
+              ],
+              [
+                1,
+                4
+              ],
+              [
+                2,
+                6
+              ]
+            ],
+            "dsc_contained_in_baseline": true,
+            "dsc_only": [],
+            "jaccard_restricted": 0.5,
+            "membership_auc": 1.0,
+            "n_circuit_edges": 4,
+            "recall_of_dsc": 1.0,
+            "shared": [
+              [
+                0,
+                3
+              ],
+              [
+                0,
+                6
+              ]
+            ]
+          },
+          "eap_ig_kl": {
+            "baseline_only": [
+              [
+                1,
+                4
+              ],
+              [
+                2,
+                5
+              ]
+            ],
+            "circuit": [
+              [
+                0,
+                3
+              ],
+              [
+                0,
+                6
+              ],
+              [
+                1,
+                4
+              ],
+              [
+                2,
+                5
+              ]
+            ],
+            "dsc_contained_in_baseline": true,
+            "dsc_only": [],
+            "jaccard_restricted": 0.5,
+            "membership_auc": 0.95,
+            "n_circuit_edges": 4,
+            "recall_of_dsc": 1.0,
+            "shared": [
+              [
+                0,
+                3
+              ],
+              [
+                0,
+                6
+              ]
+            ]
+          }
+        },
+        "diagnostics": {
+          "acdc_final_metric": 6.377726822393015e-05,
+          "acdc_iterations": 9,
+          "clean_accuracy": 1.0,
+          "corrupted_accuracy": 0.171875,
+          "matched_sparsity_k": 4,
+          "n_representable_edges": 12,
+          "performance_drop": 0.828125
+        },
+        "dsc_filtration": {
+          "(0, 3)": 0.004,
+          "(0, 6)": 0.307,
+          "(3, 0)": 0.004,
+          "(3, 6)": 0.307
+        },
+        "dsc_forward_adjacent": [
+          [
+            0,
+            3
+          ],
+          [
+            0,
+            6
+          ]
+        ],
+        "n_by_relation_kind": {
+          "forward_adjacent": 2,
+          "other": 1,
+          "within_layer": 1
+        },
+        "n_dsc_edges": 4,
+        "n_representable_edges": 12,
+        "representable_ceiling": 0.5
+      },
+      "class_1": {
+        "baseline_agreement": {
+          "acdc|eap": 1.0,
+          "acdc|eap_ig": 1.0,
+          "acdc|eap_ig_kl": 1.0,
+          "eap_ig|eap_ig_kl": 1.0,
+          "eap|eap_ig": 1.0,
+          "eap|eap_ig_kl": 1.0
+        },
+        "baselines": {
+          "acdc": {
+            "baseline_only": [],
+            "circuit": [
+              [
+                0,
+                3
+              ],
+              [
+                1,
+                4
+              ],
+              [
+                1,
+                6
+              ],
+              [
+                2,
+                5
+              ]
+            ],
+            "dsc_contained_in_baseline": true,
+            "dsc_only": [],
+            "jaccard_restricted": 1.0,
+            "membership_auc": 1.0,
+            "n_circuit_edges": 4,
+            "recall_of_dsc": 1.0,
+            "shared": [
+              [
+                0,
+                3
+              ],
+              [
+                1,
+                4
+              ],
+              [
+                1,
+                6
+              ],
+              [
+                2,
+                5
+              ]
+            ]
+          },
+          "eap": {
+            "baseline_only": [],
+            "circuit": [
+              [
+                0,
+                3
+              ],
+              [
+                1,
+                4
+              ],
+              [
+                1,
+                6
+              ],
+              [
+                2,
+                5
+              ]
+            ],
+            "dsc_contained_in_baseline": true,
+            "dsc_only": [],
+            "jaccard_restricted": 1.0,
+            "membership_auc": 1.0,
+            "n_circuit_edges": 4,
+            "recall_of_dsc": 1.0,
+            "shared": [
+              [
+                0,
+                3
+              ],
+              [
+                1,
+                4
+              ],
+              [
+                1,
+                6
+              ],
+              [
+                2,
+                5
+              ]
+            ]
+          },
+          "eap_ig": {
+            "baseline_only": [],
+            "circuit": [
+              [
+                0,
+                3
+              ],
+              [
+                1,
+                4
+              ],
+              [
+                1,
+                6
+              ],
+              [
+                2,
+                5
+              ]
+            ],
+            "dsc_contained_in_baseline": true,
+            "dsc_only": [],
+            "jaccard_restricted": 1.0,
+            "membership_auc": 1.0,
+            "n_circuit_edges": 4,
+            "recall_of_dsc": 1.0,
+            "shared": [
+              [
+                0,
+                3
+              ],
+              [
+                1,
+                4
+              ],
+              [
+                1,
+                6
+              ],
+              [
+                2,
+                5
+              ]
+            ]
+          },
+          "eap_ig_kl": {
+            "baseline_only": [],
+            "circuit": [
+              [
+                0,
+                3
+              ],
+              [
+                1,
+                4
+              ],
+              [
+                1,
+                6
+              ],
+              [
+                2,
+                5
+              ]
+            ],
+            "dsc_contained_in_baseline": true,
+            "dsc_only": [],
+            "jaccard_restricted": 1.0,
+            "membership_auc": 1.0,
+            "n_circuit_edges": 4,
+            "recall_of_dsc": 1.0,
+            "shared": [
+              [
+                0,
+                3
+              ],
+              [
+                1,
+                4
+              ],
+              [
+                1,
+                6
+              ],
+              [
+                2,
+                5
+              ]
+            ]
+          }
+        },
+        "diagnostics": {
+          "acdc_final_metric": 5.301903001964092e-05,
+          "acdc_iterations": 9,
+          "clean_accuracy": 1.0,
+          "corrupted_accuracy": 0.0,
+          "matched_sparsity_k": 4,
+          "n_representable_edges": 12,
+          "performance_drop": 1.0
+        },
+        "dsc_filtration": {
+          "(0, 3)": 0.1,
+          "(1, 4)": 0.003,
+          "(1, 6)": 0.592,
+          "(2, 5)": 0.053,
+          "(3, 0)": 0.1,
+          "(4, 1)": 0.003,
+          "(4, 6)": 0.592,
+          "(5, 2)": 0.053
+        },
+        "dsc_forward_adjacent": [
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            1,
+            6
+          ],
+          [
+            2,
+            5
+          ]
+        ],
+        "n_by_relation_kind": {
+          "forward_adjacent": 4,
+          "other": 3,
+          "within_layer": 1
+        },
+        "n_dsc_edges": 8,
+        "n_representable_edges": 12,
+        "representable_ceiling": 0.5
+      },
+      "class_2": {
+        "baseline_agreement": {
+          "acdc|eap": 0.5,
+          "acdc|eap_ig": 0.5,
+          "acdc|eap_ig_kl": 1.0,
+          "eap_ig|eap_ig_kl": 0.5,
+          "eap|eap_ig": 0.5,
+          "eap|eap_ig_kl": 0.5
+        },
+        "baselines": {
+          "acdc": {
+            "baseline_only": [
+              [
+                0,
+                3
+              ],
+              [
+                1,
+                4
+              ]
+            ],
+            "circuit": [
+              [
+                0,
+                3
+              ],
+              [
+                1,
+                4
+              ],
+              [
+                2,
+                5
+              ]
+            ],
+            "dsc_contained_in_baseline": false,
+            "dsc_only": [
+              [
+                2,
+                6
+              ]
+            ],
+            "jaccard_restricted": 0.25,
+            "membership_auc": 0.9,
+            "n_circuit_edges": 3,
+            "recall_of_dsc": 0.5,
+            "shared": [
+              [
+                2,
+                5
+              ]
+            ]
+          },
+          "eap": {
+            "baseline_only": [
+              [
+                0,
+                6
+              ],
+              [
+                1,
+                4
+              ]
+            ],
+            "circuit": [
+              [
+                0,
+                6
+              ],
+              [
+                1,
+                4
+              ],
+              [
+                2,
+                5
+              ]
+            ],
+            "dsc_contained_in_baseline": false,
+            "dsc_only": [
+              [
+                2,
+                6
+              ]
+            ],
+            "jaccard_restricted": 0.25,
+            "membership_auc": 0.85,
+            "n_circuit_edges": 3,
+            "recall_of_dsc": 0.5,
+            "shared": [
+              [
+                2,
+                5
+              ]
+            ]
+          },
+          "eap_ig": {
+            "baseline_only": [
+              [
+                1,
+                4
+              ]
+            ],
+            "circuit": [
+              [
+                1,
+                4
+              ],
+              [
+                2,
+                5
+              ],
+              [
+                2,
+                6
+              ]
+            ],
+            "dsc_contained_in_baseline": true,
+            "dsc_only": [],
+            "jaccard_restricted": 0.6666666666666666,
+            "membership_auc": 0.95,
+            "n_circuit_edges": 3,
+            "recall_of_dsc": 1.0,
+            "shared": [
+              [
+                2,
+                5
+              ],
+              [
+                2,
+                6
+              ]
+            ]
+          },
+          "eap_ig_kl": {
+            "baseline_only": [
+              [
+                0,
+                3
+              ],
+              [
+                1,
+                4
+              ]
+            ],
+            "circuit": [
+              [
+                0,
+                3
+              ],
+              [
+                1,
+                4
+              ],
+              [
+                2,
+                5
+              ]
+            ],
+            "dsc_contained_in_baseline": false,
+            "dsc_only": [
+              [
+                2,
+                6
+              ]
+            ],
+            "jaccard_restricted": 0.25,
+            "membership_auc": 0.9,
+            "n_circuit_edges": 3,
+            "recall_of_dsc": 0.5,
+            "shared": [
+              [
+                2,
+                5
+              ]
+            ]
+          }
+        },
+        "diagnostics": {
+          "acdc_final_metric": 0.00748019851744175,
+          "acdc_iterations": 10,
+          "clean_accuracy": 1.0,
+          "corrupted_accuracy": 0.1953125,
+          "matched_sparsity_k": 3,
+          "n_representable_edges": 12,
+          "performance_drop": 0.8046875
+        },
+        "dsc_filtration": {
+          "(2, 5)": 0.004,
+          "(2, 6)": 0.34,
+          "(5, 2)": 0.004,
+          "(5, 6)": 0.34
+        },
+        "dsc_forward_adjacent": [
+          [
+            2,
+            5
+          ],
+          [
+            2,
+            6
+          ]
+        ],
+        "n_by_relation_kind": {
+          "forward_adjacent": 2,
+          "other": 1,
+          "within_layer": 1
+        },
+        "n_dsc_edges": 4,
+        "n_representable_edges": 12,
+        "representable_ceiling": 0.5
+      },
+      "class_3": {
+        "baseline_agreement": {
+          "acdc|eap": 1.0,
+          "acdc|eap_ig": 1.0,
+          "acdc|eap_ig_kl": 1.0,
+          "eap_ig|eap_ig_kl": 1.0,
+          "eap|eap_ig": 1.0,
+          "eap|eap_ig_kl": 1.0
+        },
+        "baselines": {
+          "acdc": {
+            "baseline_only": [
+              [
+                1,
+                4
+              ],
+              [
+                1,
+                6
+              ]
+            ],
+            "circuit": [
+              [
+                0,
+                3
+              ],
+              [
+                0,
+                6
+              ],
+              [
+                1,
+                4
+              ],
+              [
+                1,
+                6
+              ],
+              [
+                2,
+                5
+              ],
+              [
+                2,
+                6
+              ]
+            ],
+            "dsc_contained_in_baseline": true,
+            "dsc_only": [],
+            "jaccard_restricted": 0.6666666666666666,
+            "membership_auc": 0.8125,
+            "n_circuit_edges": 6,
+            "recall_of_dsc": 1.0,
+            "shared": [
+              [
+                0,
+                3
+              ],
+              [
+                0,
+                6
+              ],
+              [
+                2,
+                5
+              ],
+              [
+                2,
+                6
+              ]
+            ]
+          },
+          "eap": {
+            "baseline_only": [
+              [
+                1,
+                4
+              ],
+              [
+                1,
+                6
+              ]
+            ],
+            "circuit": [
+              [
+                0,
+                3
+              ],
+              [
+                0,
+                6
+              ],
+              [
+                1,
+                4
+              ],
+              [
+                1,
+                6
+              ],
+              [
+                2,
+                5
+              ],
+              [
+                2,
+                6
+              ]
+            ],
+            "dsc_contained_in_baseline": true,
+            "dsc_only": [],
+            "jaccard_restricted": 0.6666666666666666,
+            "membership_auc": 0.875,
+            "n_circuit_edges": 6,
+            "recall_of_dsc": 1.0,
+            "shared": [
+              [
+                0,
+                3
+              ],
+              [
+                0,
+                6
+              ],
+              [
+                2,
+                5
+              ],
+              [
+                2,
+                6
+              ]
+            ]
+          },
+          "eap_ig": {
+            "baseline_only": [
+              [
+                1,
+                4
+              ],
+              [
+                1,
+                6
+              ]
+            ],
+            "circuit": [
+              [
+                0,
+                3
+              ],
+              [
+                0,
+                6
+              ],
+              [
+                1,
+                4
+              ],
+              [
+                1,
+                6
+              ],
+              [
+                2,
+                5
+              ],
+              [
+                2,
+                6
+              ]
+            ],
+            "dsc_contained_in_baseline": true,
+            "dsc_only": [],
+            "jaccard_restricted": 0.6666666666666666,
+            "membership_auc": 0.875,
+            "n_circuit_edges": 6,
+            "recall_of_dsc": 1.0,
+            "shared": [
+              [
+                0,
+                3
+              ],
+              [
+                0,
+                6
+              ],
+              [
+                2,
+                5
+              ],
+              [
+                2,
+                6
+              ]
+            ]
+          },
+          "eap_ig_kl": {
+            "baseline_only": [
+              [
+                1,
+                4
+              ],
+              [
+                1,
+                6
+              ]
+            ],
+            "circuit": [
+              [
+                0,
+                3
+              ],
+              [
+                0,
+                6
+              ],
+              [
+                1,
+                4
+              ],
+              [
+                1,
+                6
+              ],
+              [
+                2,
+                5
+              ],
+              [
+                2,
+                6
+              ]
+            ],
+            "dsc_contained_in_baseline": true,
+            "dsc_only": [],
+            "jaccard_restricted": 0.6666666666666666,
+            "membership_auc": 0.9375,
+            "n_circuit_edges": 6,
+            "recall_of_dsc": 1.0,
+            "shared": [
+              [
+                0,
+                3
+              ],
+              [
+                0,
+                6
+              ],
+              [
+                2,
+                5
+              ],
+              [
+                2,
+                6
+              ]
+            ]
+          }
+        },
+        "diagnostics": {
+          "acdc_final_metric": 1.3969838619232178e-09,
+          "acdc_iterations": 7,
+          "clean_accuracy": 1.0,
+          "corrupted_accuracy": 0.21875,
+          "matched_sparsity_k": 6,
+          "n_representable_edges": 12,
+          "performance_drop": 0.78125
+        },
+        "dsc_filtration": {
+          "(0, 3)": 0.029,
+          "(0, 6)": 0.027,
+          "(2, 5)": 0.078,
+          "(2, 6)": 0.068,
+          "(3, 0)": 0.029,
+          "(3, 6)": 0.027,
+          "(5, 2)": 0.078,
+          "(5, 6)": 0.068,
+          "(6, 0)": 0.001,
+          "(6, 2)": 0.001,
+          "(6, 3)": 0.001,
+          "(6, 5)": 0.001
+        },
+        "dsc_forward_adjacent": [
+          [
+            0,
+            3
+          ],
+          [
+            0,
+            6
+          ],
+          [
+            2,
+            5
+          ],
+          [
+            2,
+            6
+          ]
+        ],
+        "n_by_relation_kind": {
+          "forward_adjacent": 4,
+          "other": 4,
+          "within_layer": 4
+        },
+        "n_dsc_edges": 12,
+        "n_representable_edges": 12,
+        "representable_ceiling": 0.3333333333333333
+      }
+    },
+    "hidden_sizes": [
+      3,
+      4
+    ],
+    "internal_neurons": 7
+  }
+}

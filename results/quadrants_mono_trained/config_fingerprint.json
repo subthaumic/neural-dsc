@@ -1,0 +1,40 @@
+{
+  "config": {
+    "checkpoint_sha256": "23b724206a03789c66f2886f6758583d13cf18cc0a6465602dfdf37b6200eb70",
+    "dt": 0.01,
+    "fdr_method": "bonferroni",
+    "max_dimension": 8,
+    "max_iterations": 1000,
+    "minimum_eval_accuracy": 0.99,
+    "n_probe_points": 128,
+    "probe_max_attempts": 12800000,
+    "probe_output_space": "softmax_probabilities",
+    "probe_reference_rule": "onehot=1; adjacent_twohot=1",
+    "probe_seed": 20260819,
+    "probe_seed_rule": "base + 1000*class + n_points",
+    "probe_selection": "purity_rejection_sampling",
+    "probe_tolerance": 0.01,
+    "relevance_margin": 0.01,
+    "relevance_scale": "std",
+    "significance_level": 0.01,
+    "training": {
+      "architecture": "mono-capacity",
+      "batch_size": 256,
+      "epochs": 200,
+      "eval_data_seed": 43,
+      "eval_size": 100000,
+      "layer_sizes": [
+        2,
+        4,
+        4,
+        4
+      ],
+      "learning_rate": 0.005,
+      "model_seed": 1,
+      "train_data_seed": 42,
+      "train_draws_per_epoch": 10000,
+      "train_sampling": "fresh_uniform_draws_per_minibatch"
+    }
+  },
+  "sha256": "1da2044b33a266a9eb4e92096b039d81c4d0ba4fffa68dcdc70d711dc8b8380d"
+}

@@ -1,0 +1,106 @@
+{
+  "contexts": [
+    {
+      "architecture": "mono_handcrafted",
+      "class": 0,
+      "dt_ordering_preserved_all": false,
+      "dt_total_inversions": 7,
+      "tolerance_reference": 0.0,
+      "tolerance_loosest_matching_reference": 0.05,
+      "tolerance_rows_skipped": []
+    },
+    {
+      "architecture": "mono_handcrafted",
+      "class": 1,
+      "dt_ordering_preserved_all": false,
+      "dt_total_inversions": 9,
+      "tolerance_reference": 0.0,
+      "tolerance_loosest_matching_reference": 0.1,
+      "tolerance_rows_skipped": []
+    },
+    {
+      "architecture": "mono_handcrafted",
+      "class": 2,
+      "dt_ordering_preserved_all": false,
+      "dt_total_inversions": 6,
+      "tolerance_reference": 0.0,
+      "tolerance_loosest_matching_reference": 0.1,
+      "tolerance_rows_skipped": []
+    },
+    {
+      "architecture": "mono_handcrafted",
+      "class": 3,
+      "dt_ordering_preserved_all": false,
+      "dt_total_inversions": 8,
+      "tolerance_reference": 0.0,
+      "tolerance_loosest_matching_reference": 0.1,
+      "tolerance_rows_skipped": []
+    },
+    {
+      "architecture": "poly_handcrafted",
+      "class": 0,
+      "dt_ordering_preserved_all": true,
+      "dt_total_inversions": 0,
+      "tolerance_reference": 0.0,
+      "tolerance_loosest_matching_reference": 0.1,
+      "tolerance_rows_skipped": []
+    },
+    {
+      "architecture": "poly_handcrafted",
+      "class": 1,
+      "dt_ordering_preserved_all": true,
+      "dt_total_inversions": 0,
+      "tolerance_reference": 0.001,
+      "tolerance_loosest_matching_reference": 0.1,
+      "tolerance_rows_skipped": [
+        0.0
+      ]
+    },
+    {
+      "architecture": "poly_handcrafted",
+      "class": 2,
+      "dt_ordering_preserved_all": true,
+      "dt_total_inversions": 0,
+      "tolerance_reference": 0.0,
+      "tolerance_loosest_matching_reference": 0.1,
+      "tolerance_rows_skipped": []
+    },
+    {
+      "architecture": "poly_handcrafted",
+      "class": 3,
+      "dt_ordering_preserved_all": true,
+      "dt_total_inversions": 0,
+      "tolerance_reference": 0.001,
+      "tolerance_loosest_matching_reference": 0.1,
+      "tolerance_rows_skipped": [
+        0.0
+      ]
+    }
+  ],
+  "dt_ordering_preserved_all_contexts": false,
+  "dt_total_inversions_all_contexts": 30,
+  "tolerance_loosest_matching_reference_by_context": {
+    "mono_handcrafted/class_0": 0.05,
+    "mono_handcrafted/class_1": 0.1,
+    "mono_handcrafted/class_2": 0.1,
+    "mono_handcrafted/class_3": 0.1,
+    "poly_handcrafted/class_0": 0.1,
+    "poly_handcrafted/class_1": 0.1,
+    "poly_handcrafted/class_2": 0.1,
+    "poly_handcrafted/class_3": 0.1
+  },
+  "tolerance_rows_skipped_by_context": {
+    "mono_handcrafted/class_0": [],
+    "mono_handcrafted/class_1": [],
+    "mono_handcrafted/class_2": [],
+    "mono_handcrafted/class_3": [],
+    "poly_handcrafted/class_0": [],
+    "poly_handcrafted/class_1": [
+      0.0
+    ],
+    "poly_handcrafted/class_2": [],
+    "poly_handcrafted/class_3": [
+      0.0
+    ]
+  }
+}

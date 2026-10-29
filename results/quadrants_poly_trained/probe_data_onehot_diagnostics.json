@@ -1,0 +1,53 @@
+{
+  "contexts": [
+    {
+      "acceptance_rate": 0.23974609375,
+      "achievable_purity": 1.0,
+      "context": "class_0",
+      "mean_purity": 0.9999651312828064,
+      "min_purity": 0.9955387115478516,
+      "n_accepted": 128.0,
+      "n_attempts": 4096.0,
+      "n_requested": 128.0,
+      "threshold": 0.99,
+      "tolerance": 0.01
+    },
+    {
+      "acceptance_rate": 0.249267578125,
+      "achievable_purity": 1.0,
+      "context": "class_1",
+      "mean_purity": 0.9999967813491821,
+      "min_purity": 0.999588131904602,
+      "n_accepted": 128.0,
+      "n_attempts": 4096.0,
+      "n_requested": 128.0,
+      "threshold": 0.99,
+      "tolerance": 0.01
+    },
+    {
+      "acceptance_rate": 0.237548828125,
+      "achievable_purity": 1.0,
+      "context": "class_2",
+      "mean_purity": 0.9999889135360718,
+      "min_purity": 0.9985877275466919,
+      "n_accepted": 128.0,
+      "n_attempts": 4096.0,
+      "n_requested": 128.0,
+      "threshold": 0.99,
+      "tolerance": 0.01
+    },
+    {
+      "acceptance_rate": 0.249267578125,
+      "achievable_purity": 1.0,
+      "context": "class_3",
+      "mean_purity": 0.9999991655349731,
+      "min_purity": 0.9998974204063416,
+      "n_accepted": 128.0,
+      "n_attempts": 4096.0,
+      "n_requested": 128.0,
+      "threshold": 0.99,
+      "tolerance": 0.01
+    }
+  ],
+  "output_space": "softmax_probabilities"
+}

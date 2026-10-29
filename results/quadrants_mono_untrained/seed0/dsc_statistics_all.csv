@@ -1,0 +1,5 @@
+label,total_simplices,max_dimension,total_vertices,dim0_count,dim0_filt_min,dim0_filt_median,dim0_filt_max,dim0_filt_mean,dim1_count,dim1_filt_min,dim1_filt_median,dim1_filt_max,dim1_filt_mean,dim2_count,dim2_filt_min,dim2_filt_median,dim2_filt_max,dim2_filt_mean,dim3_count,dim3_filt_min,dim3_filt_median,dim3_filt_max,dim3_filt_mean,dim4_count,dim4_filt_min,dim4_filt_median,dim4_filt_max,dim4_filt_mean
+Q1 one-hot,48,3,8,8,0.0,0.0,0.0,0.0,12,0.008,0.0225,0.369,0.07975,20,0.018,0.057999999999999996,0.477,0.17809999999999998,8,0.346,0.346,0.477,0.37875,0,,,,
+Q2 one-hot,370,4,8,8,0.0,0.0,0.0,0.0,30,0.009,0.023,0.804,0.11610000000000002,90,0.015,0.082,0.876,0.21723333333333336,152,0.023,0.308,0.876,0.36965789473684213,90,0.068,0.354,0.876,0.4307222222222222
+Q3 one-hot,62,3,8,8,0.0,0.0,0.0,0.0,16,0.002,0.006500000000000001,0.995,0.1758125,22,0.006,0.036,0.852,0.22313636363636366,16,0.007,0.631,0.895,0.5176875,0,,,,
+Q4 one-hot,10,1,8,8,0.0,0.0,0.0,0.0,2,0.001,0.035500000000000004,0.07,0.035500000000000004,0,,,,,0,,,,,0,,,,

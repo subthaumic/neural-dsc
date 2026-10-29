@@ -1,0 +1,11 @@
+network,layer_widths,n_points,accuracy,predicted_counts
+mono_handcrafted,"[2,4,4,4]",1000,1.0,Q1:252 Q2:243 Q3:258 Q4:247
+mono_trained,"[2,4,4,4]",1000,0.997,Q1:253 Q2:241 Q3:258 Q4:248
+mono_untrained_seed0,"[2,4,4,4]",1000,0.247,Q1:0 Q2:0 Q3:0 Q4:1000
+mono_untrained_seed1,"[2,4,4,4]",1000,0.247,Q1:0 Q2:0 Q3:0 Q4:1000
+mono_untrained_seed2,"[2,4,4,4]",1000,0.247,Q1:0 Q2:0 Q3:0 Q4:1000
+poly_handcrafted,"[2,3,4,4]",1000,0.866,Q1:297 Q2:236 Q3:298 Q4:169
+poly_trained,"[2,3,4,4]",1000,0.999,Q1:251 Q2:243 Q3:258 Q4:248
+poly_untrained_seed0,"[2,3,4,4]",1000,0.243,Q1:0 Q2:1000 Q3:0 Q4:0
+poly_untrained_seed1,"[2,3,4,4]",1000,0.243,Q1:0 Q2:1000 Q3:0 Q4:0
+poly_untrained_seed2,"[2,3,4,4]",1000,0.258,Q1:0 Q2:192 Q3:808 Q4:0

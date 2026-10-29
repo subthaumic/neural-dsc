@@ -1,0 +1,17 @@
+Trained poly-architecture quadrant classifier
+layer_sizes: [2, 3, 4, 4]
+train_sampling: fresh_uniform_draws_per_minibatch
+train_draws_per_epoch: 10000
+total_train_draws: 2000000
+train_data_seed: 42
+eval_size: 100000
+eval_data_seed: 43
+model_seed: 1
+train_epochs: 200
+train_batch_size: 256
+train_learning_rate: 0.005
+final_epoch_train_loss: 0.002861
+eval_accuracy: 0.999160
+eval_loss: 0.002861
+checkpoint_sha256: 0a60d71cdb34961d7ca1a177db504ae242deb7633354ca7b8ac39dc7bbe34a28
+checkpoint_reused: False

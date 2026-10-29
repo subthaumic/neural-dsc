@@ -1,0 +1,44 @@
+{
+  "config": {
+    "architectures": [
+      "mono_handcrafted",
+      "poly_handcrafted"
+    ],
+    "classes": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "default_alpha": 0.01,
+    "default_dt": 0.01,
+    "default_fdr": "bonferroni",
+    "dt_values": [
+      0.005,
+      0.01,
+      0.02,
+      0.05,
+      0.1,
+      0.2,
+      0.5
+    ],
+    "max_dimension": 7,
+    "max_iterations": 1000,
+    "n_probe_points": 128,
+    "probe_seed": 20260819,
+    "probe_seed_rule": "base + 1000*class + n_points",
+    "probe_selection": "purity_rejection_sampling",
+    "probe_tolerance": 0.01,
+    "probe_tolerance_values": [
+      0.0,
+      0.001,
+      0.005,
+      0.01,
+      0.05,
+      0.1
+    ],
+    "relevance_margin": 0.01,
+    "relevance_scale": "std"
+  },
+  "sha256": "a076c4aee5a285dc051a0aaba66f6ddb098427598ff037f5a20b898ae2f5b422"
+}

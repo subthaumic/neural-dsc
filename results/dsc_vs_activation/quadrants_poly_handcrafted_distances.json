@@ -1,0 +1,154 @@
+{
+  "experiment": "quadrants_poly_handcrafted",
+  "source_results_dir": "results/quadrants_poly_handcrafted",
+  "n_classes": 4,
+  "labels": [
+    "Q1",
+    "Q2",
+    "Q3",
+    "Q4"
+  ],
+  "jaccard_method": {
+    "name": "mean sublevel-set Jaccard distance over filtration",
+    "grid_intervals": 1000,
+    "grid_points": 1001,
+    "summand_weight": 0.000999000999000999,
+    "vertices_included": false,
+    "empty_empty_distance": 0.0
+  },
+  "metrics": {
+    "mean_jaccard_distance": 0.804384744644485,
+    "mean_cosine_distance": 0.9675022351269339,
+    "mean_euclidean_distance": 6.2041401863098145,
+    "normalised_mean_jaccard_distance": 0.8076119652849844,
+    "normalised_mean_cosine_distance": 0.9676790578963113,
+    "normalised_mean_euclidean_distance": 0.8369655013084412,
+    "spearman_rho": 1.0,
+    "spearman_pvalue": 0.0,
+    "dsc_more_separated": false,
+    "jaccard_distance_mean": 0.804384744644485,
+    "jaccard_distance_std": 0.10026313446692946,
+    "jaccard_distance_min": 0.700957375957376,
+    "jaccard_distance_max": 0.996003996003996,
+    "cosine_distance_mean": 0.9675022351269339,
+    "cosine_distance_std": 0.022264419252058437,
+    "cosine_distance_min": 0.9480623863637447,
+    "cosine_distance_max": 0.9998172712657833,
+    "euclidean_distance_mean": 6.2041401863098145,
+    "euclidean_distance_std": 1.0416635274887085,
+    "euclidean_distance_min": 4.779745101928711,
+    "euclidean_distance_max": 7.412660598754883,
+    "mean_terminal_jaccard_distance": 0.7970779220779222,
+    "normalised_mean_terminal_jaccard_distance": 0.7970779220779222,
+    "mean_jaccard_distance_change": 0.007306822566562787,
+    "normalised_mean_jaccard_distance_change": 0.010534043207062194,
+    "terminal_spearman_rho": 0.7944613465542747,
+    "terminal_spearman_pvalue": 0.002022300872511987
+  },
+  "matrices": {
+    "jaccard_distance": [
+      [
+        0.0,
+        0.8127586699015271,
+        0.996003996003996,
+        0.700957375957376
+      ],
+      [
+        0.8127586699015271,
+        0.0,
+        0.7848865420293994,
+        0.8130455403182678
+      ],
+      [
+        0.996003996003996,
+        0.7848865420293994,
+        0.0,
+        0.7186563436563437
+      ],
+      [
+        0.700957375957376,
+        0.8130455403182678,
+        0.7186563436563437,
+        0.0
+      ]
+    ],
+    "terminal_jaccard_distance": [
+      [
+        0.0,
+        0.8571428571428572,
+        1.0,
+        0.625
+      ],
+      [
+        0.8571428571428572,
+        0.0,
+        0.8571428571428572,
+        0.8181818181818181
+      ],
+      [
+        1.0,
+        0.8571428571428572,
+        0.0,
+        0.625
+      ],
+      [
+        0.625,
+        0.8181818181818181,
+        0.625,
+        0.0
+      ]
+    ],
+    "cosine_distance": [
+      [
+        0.0,
+        0.9573715589940548,
+        0.9998172712657833,
+        0.9480623863637447
+      ],
+      [
+        0.9573715589940548,
+        0.0,
+        0.955141544342041,
+        0.9946995186619461
+      ],
+      [
+        0.9998172712657833,
+        0.955141544342041,
+        0.0,
+        0.9499211311340332
+      ],
+      [
+        0.9480623863637447,
+        0.9946995186619461,
+        0.9499211311340332,
+        0.0
+      ]
+    ],
+    "euclidean_distance": [
+      [
+        0.0,
+        7.231563568115234,
+        6.583120346069336,
+        4.779745101928711
+      ],
+      [
+        7.231563568115234,
+        0.0,
+        7.412660598754883,
+        6.142974853515625
+      ],
+      [
+        6.583120346069336,
+        7.412660598754883,
+        0.0,
+        5.074779033660889
+      ],
+      [
+        4.779745101928711,
+        6.142974853515625,
+        5.074779033660889,
+        0.0
+      ]
+    ]
+  }
+}

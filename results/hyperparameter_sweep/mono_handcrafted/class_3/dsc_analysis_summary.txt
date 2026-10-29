@@ -1,0 +1,454 @@
+
+================================================================================
+SUMMARY: mono_handcrafted/Q4/dt=0.005
+================================================================================
+
+Total simplices: 22
+Unique neurons: 8
+Max dimension: 3
+
+Simplices by dimension:
+  Dimension 0: 8 simplices
+    Filtration - min: 0.0000, median: 0.0000, max: 0.0000
+  Dimension 1: 10 simplices
+    Filtration - min: 0.0040, median: 0.1360, max: 0.9820
+  Dimension 2: 4 simplices
+    Filtration - min: 0.4730, median: 0.6555, max: 0.8380
+  Dimension 3: 0 simplices
+
+Top 5 simplices by dimension (lowest filtration):
+
+  Dimension 1:
+    (7, 2): filtration = 0.0040
+    (7, 0): filtration = 0.0050
+    (0, 7): filtration = 0.0080
+    (2, 7): filtration = 0.0080
+    (2, 4): filtration = 0.1010
+
+  Dimension 2:
+    (2, 7, 4): filtration = 0.4730
+    (7, 2, 4): filtration = 0.4730
+    (0, 7, 6): filtration = 0.8380
+    (7, 0, 6): filtration = 0.8380
+
+================================================================================
+
+
+================================================================================
+SUMMARY: mono_handcrafted/Q4/dt=0.01
+================================================================================
+
+Total simplices: 22
+Unique neurons: 8
+Max dimension: 3
+
+Simplices by dimension:
+  Dimension 0: 8 simplices
+    Filtration - min: 0.0000, median: 0.0000, max: 0.0000
+  Dimension 1: 10 simplices
+    Filtration - min: 0.0040, median: 0.1350, max: 0.9810
+  Dimension 2: 4 simplices
+    Filtration - min: 0.4730, median: 0.6555, max: 0.8380
+  Dimension 3: 0 simplices
+
+Top 5 simplices by dimension (lowest filtration):
+
+  Dimension 1:
+    (7, 2): filtration = 0.0040
+    (7, 0): filtration = 0.0050
+    (0, 7): filtration = 0.0080
+    (2, 7): filtration = 0.0080
+    (2, 4): filtration = 0.1000
+
+  Dimension 2:
+    (2, 7, 4): filtration = 0.4730
+    (7, 2, 4): filtration = 0.4730
+    (0, 7, 6): filtration = 0.8380
+    (7, 0, 6): filtration = 0.8380
+
+================================================================================
+
+
+================================================================================
+SUMMARY: mono_handcrafted/Q4/dt=0.02
+================================================================================
+
+Total simplices: 22
+Unique neurons: 8
+Max dimension: 3
+
+Simplices by dimension:
+  Dimension 0: 8 simplices
+    Filtration - min: 0.0000, median: 0.0000, max: 0.0000
+  Dimension 1: 10 simplices
+    Filtration - min: 0.0040, median: 0.1320, max: 0.9790
+  Dimension 2: 4 simplices
+    Filtration - min: 0.4730, median: 0.6555, max: 0.8380
+  Dimension 3: 0 simplices
+
+Top 5 simplices by dimension (lowest filtration):
+
+  Dimension 1:
+    (7, 2): filtration = 0.0040
+    (7, 0): filtration = 0.0050
+    (0, 7): filtration = 0.0080
+    (2, 7): filtration = 0.0080
+    (2, 4): filtration = 0.0970
+
+  Dimension 2:
+    (2, 7, 4): filtration = 0.4730
+    (7, 2, 4): filtration = 0.4730
+    (0, 7, 6): filtration = 0.8380
+    (7, 0, 6): filtration = 0.8380
+
+================================================================================
+
+
+================================================================================
+SUMMARY: mono_handcrafted/Q4/dt=0.05
+================================================================================
+
+Total simplices: 22
+Unique neurons: 8
+Max dimension: 3
+
+Simplices by dimension:
+  Dimension 0: 8 simplices
+    Filtration - min: 0.0000, median: 0.0000, max: 0.0000
+  Dimension 1: 10 simplices
+    Filtration - min: 0.0040, median: 0.1260, max: 0.9760
+  Dimension 2: 4 simplices
+    Filtration - min: 0.4720, median: 0.6550, max: 0.8380
+  Dimension 3: 0 simplices
+
+Top 5 simplices by dimension (lowest filtration):
+
+  Dimension 1:
+    (7, 2): filtration = 0.0040
+    (7, 0): filtration = 0.0050
+    (0, 7): filtration = 0.0080
+    (2, 7): filtration = 0.0080
+    (2, 4): filtration = 0.0950
+
+  Dimension 2:
+    (2, 7, 4): filtration = 0.4720
+    (7, 2, 4): filtration = 0.4720
+    (0, 7, 6): filtration = 0.8380
+    (7, 0, 6): filtration = 0.8380
+
+================================================================================
+
+
+================================================================================
+SUMMARY: mono_handcrafted/Q4/dt=0.1
+================================================================================
+
+Total simplices: 22
+Unique neurons: 8
+Max dimension: 3
+
+Simplices by dimension:
+  Dimension 0: 8 simplices
+    Filtration - min: 0.0000, median: 0.0000, max: 0.0000
+  Dimension 1: 10 simplices
+    Filtration - min: 0.0040, median: 0.1095, max: 0.9760
+  Dimension 2: 4 simplices
+    Filtration - min: 0.4690, median: 0.6500, max: 0.8310
+  Dimension 3: 0 simplices
+
+Top 5 simplices by dimension (lowest filtration):
+
+  Dimension 1:
+    (7, 2): filtration = 0.0040
+    (7, 0): filtration = 0.0050
+    (0, 7): filtration = 0.0080
+    (2, 7): filtration = 0.0080
+    (2, 4): filtration = 0.0830
+
+  Dimension 2:
+    (2, 7, 4): filtration = 0.4690
+    (7, 2, 4): filtration = 0.4690
+    (0, 7, 6): filtration = 0.8310
+    (7, 0, 6): filtration = 0.8310
+
+================================================================================
+
+
+================================================================================
+SUMMARY: mono_handcrafted/Q4/dt=0.2
+================================================================================
+
+Total simplices: 22
+Unique neurons: 8
+Max dimension: 3
+
+Simplices by dimension:
+  Dimension 0: 8 simplices
+    Filtration - min: 0.0000, median: 0.0000, max: 0.0000
+  Dimension 1: 10 simplices
+    Filtration - min: 0.0040, median: 0.0580, max: 0.9540
+  Dimension 2: 4 simplices
+    Filtration - min: 0.4530, median: 0.6345, max: 0.8160
+  Dimension 3: 0 simplices
+
+Top 5 simplices by dimension (lowest filtration):
+
+  Dimension 1:
+    (7, 2): filtration = 0.0040
+    (7, 0): filtration = 0.0050
+    (0, 7): filtration = 0.0080
+    (2, 7): filtration = 0.0080
+    (2, 4): filtration = 0.0220
+
+  Dimension 2:
+    (2, 7, 4): filtration = 0.4530
+    (7, 2, 4): filtration = 0.4530
+    (0, 7, 6): filtration = 0.8160
+    (7, 0, 6): filtration = 0.8160
+
+================================================================================
+
+
+================================================================================
+SUMMARY: mono_handcrafted/Q4/dt=0.5
+================================================================================
+
+Total simplices: 22
+Unique neurons: 8
+Max dimension: 3
+
+Simplices by dimension:
+  Dimension 0: 8 simplices
+    Filtration - min: 0.0000, median: 0.0000, max: 0.0000
+  Dimension 1: 10 simplices
+    Filtration - min: 0.0030, median: 0.0080, max: 0.9210
+  Dimension 2: 4 simplices
+    Filtration - min: 0.4470, median: 0.6060, max: 0.7650
+  Dimension 3: 0 simplices
+
+Top 5 simplices by dimension (lowest filtration):
+
+  Dimension 1:
+    (0, 6): filtration = 0.0030
+    (2, 4): filtration = 0.0030
+    (7, 2): filtration = 0.0040
+    (7, 0): filtration = 0.0050
+    (0, 7): filtration = 0.0080
+
+  Dimension 2:
+    (2, 7, 4): filtration = 0.4470
+    (7, 2, 4): filtration = 0.4470
+    (0, 7, 6): filtration = 0.7650
+    (7, 0, 6): filtration = 0.7650
+
+================================================================================
+
+
+================================================================================
+SUMMARY: mono_handcrafted/Q4/tolerance=0.0
+================================================================================
+
+Total simplices: 22
+Unique neurons: 8
+Max dimension: 3
+
+Simplices by dimension:
+  Dimension 0: 8 simplices
+    Filtration - min: 0.0000, median: 0.0000, max: 0.0000
+  Dimension 1: 10 simplices
+    Filtration - min: 0.0050, median: 0.1705, max: 0.9980
+  Dimension 2: 4 simplices
+    Filtration - min: 0.7280, median: 0.8575, max: 0.9870
+  Dimension 3: 0 simplices
+
+Top 5 simplices by dimension (lowest filtration):
+
+  Dimension 1:
+    (7, 0): filtration = 0.0050
+    (7, 2): filtration = 0.0050
+    (2, 7): filtration = 0.0080
+    (0, 7): filtration = 0.0090
+    (0, 6): filtration = 0.1440
+
+  Dimension 2:
+    (0, 7, 6): filtration = 0.7280
+    (7, 0, 6): filtration = 0.7280
+    (2, 7, 4): filtration = 0.9870
+    (7, 2, 4): filtration = 0.9870
+
+================================================================================
+
+
+================================================================================
+SUMMARY: mono_handcrafted/Q4/tolerance=0.001
+================================================================================
+
+Total simplices: 22
+Unique neurons: 8
+Max dimension: 3
+
+Simplices by dimension:
+  Dimension 0: 8 simplices
+    Filtration - min: 0.0000, median: 0.0000, max: 0.0000
+  Dimension 1: 10 simplices
+    Filtration - min: 0.0050, median: 0.1605, max: 0.9820
+  Dimension 2: 4 simplices
+    Filtration - min: 0.7390, median: 0.7945, max: 0.8500
+  Dimension 3: 0 simplices
+
+Top 5 simplices by dimension (lowest filtration):
+
+  Dimension 1:
+    (7, 0): filtration = 0.0050
+    (7, 2): filtration = 0.0050
+    (0, 7): filtration = 0.0090
+    (2, 7): filtration = 0.0090
+    (2, 4): filtration = 0.1500
+
+  Dimension 2:
+    (2, 7, 4): filtration = 0.7390
+    (7, 2, 4): filtration = 0.7390
+    (0, 7, 6): filtration = 0.8500
+    (7, 0, 6): filtration = 0.8500
+
+================================================================================
+
+
+================================================================================
+SUMMARY: mono_handcrafted/Q4/tolerance=0.005
+================================================================================
+
+Total simplices: 22
+Unique neurons: 8
+Max dimension: 3
+
+Simplices by dimension:
+  Dimension 0: 8 simplices
+    Filtration - min: 0.0000, median: 0.0000, max: 0.0000
+  Dimension 1: 10 simplices
+    Filtration - min: 0.0040, median: 0.1465, max: 0.9820
+  Dimension 2: 4 simplices
+    Filtration - min: 0.5840, median: 0.7185, max: 0.8530
+  Dimension 3: 0 simplices
+
+Top 5 simplices by dimension (lowest filtration):
+
+  Dimension 1:
+    (7, 2): filtration = 0.0040
+    (7, 0): filtration = 0.0050
+    (0, 7): filtration = 0.0080
+    (2, 7): filtration = 0.0080
+    (2, 4): filtration = 0.1210
+
+  Dimension 2:
+    (2, 7, 4): filtration = 0.5840
+    (7, 2, 4): filtration = 0.5840
+    (0, 7, 6): filtration = 0.8530
+    (7, 0, 6): filtration = 0.8530
+
+================================================================================
+
+
+================================================================================
+SUMMARY: mono_handcrafted/Q4/tolerance=0.01
+================================================================================
+
+Total simplices: 22
+Unique neurons: 8
+Max dimension: 3
+
+Simplices by dimension:
+  Dimension 0: 8 simplices
+    Filtration - min: 0.0000, median: 0.0000, max: 0.0000
+  Dimension 1: 10 simplices
+    Filtration - min: 0.0040, median: 0.1350, max: 0.9810
+  Dimension 2: 4 simplices
+    Filtration - min: 0.4730, median: 0.6555, max: 0.8380
+  Dimension 3: 0 simplices
+
+Top 5 simplices by dimension (lowest filtration):
+
+  Dimension 1:
+    (7, 2): filtration = 0.0040
+    (7, 0): filtration = 0.0050
+    (0, 7): filtration = 0.0080
+    (2, 7): filtration = 0.0080
+    (2, 4): filtration = 0.1000
+
+  Dimension 2:
+    (2, 7, 4): filtration = 0.4730
+    (7, 2, 4): filtration = 0.4730
+    (0, 7, 6): filtration = 0.8380
+    (7, 0, 6): filtration = 0.8380
+
+================================================================================
+
+
+================================================================================
+SUMMARY: mono_handcrafted/Q4/tolerance=0.05
+================================================================================
+
+Total simplices: 22
+Unique neurons: 8
+Max dimension: 3
+
+Simplices by dimension:
+  Dimension 0: 8 simplices
+    Filtration - min: 0.0000, median: 0.0000, max: 0.0000
+  Dimension 1: 10 simplices
+    Filtration - min: 0.0050, median: 0.1020, max: 0.9610
+  Dimension 2: 4 simplices
+    Filtration - min: 0.3040, median: 0.4820, max: 0.6600
+  Dimension 3: 0 simplices
+
+Top 5 simplices by dimension (lowest filtration):
+
+  Dimension 1:
+    (7, 0): filtration = 0.0050
+    (7, 2): filtration = 0.0050
+    (0, 7): filtration = 0.0080
+    (2, 7): filtration = 0.0080
+    (2, 4): filtration = 0.0660
+
+  Dimension 2:
+    (2, 7, 4): filtration = 0.3040
+    (7, 2, 4): filtration = 0.3040
+    (0, 7, 6): filtration = 0.6600
+    (7, 0, 6): filtration = 0.6600
+
+================================================================================
+
+
+================================================================================
+SUMMARY: mono_handcrafted/Q4/tolerance=0.1
+================================================================================
+
+Total simplices: 22
+Unique neurons: 8
+Max dimension: 3
+
+Simplices by dimension:
+  Dimension 0: 8 simplices
+    Filtration - min: 0.0000, median: 0.0000, max: 0.0000
+  Dimension 1: 10 simplices
+    Filtration - min: 0.0050, median: 0.1020, max: 0.9580
+  Dimension 2: 4 simplices
+    Filtration - min: 0.3080, median: 0.4835, max: 0.6590
+  Dimension 3: 0 simplices
+
+Top 5 simplices by dimension (lowest filtration):
+
+  Dimension 1:
+    (7, 2): filtration = 0.0050
+    (7, 0): filtration = 0.0060
+    (0, 7): filtration = 0.0090
+    (2, 7): filtration = 0.0090
+    (2, 4): filtration = 0.0670
+
+  Dimension 2:
+    (2, 7, 4): filtration = 0.3080
+    (7, 2, 4): filtration = 0.3080
+    (0, 7, 6): filtration = 0.6590
+    (7, 0, 6): filtration = 0.6590
+
+================================================================================

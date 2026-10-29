@@ -1,0 +1,166 @@
+
+================================================================================
+SUMMARY: Q1 one-hot
+================================================================================
+
+Total simplices: 100
+Unique neurons: 8
+Max dimension: 3
+
+Simplices by dimension:
+  Dimension 0: 8 simplices
+    Filtration - min: 0.0000, median: 0.0000, max: 0.0000
+  Dimension 1: 24 simplices
+    Filtration - min: 0.0020, median: 0.0400, max: 0.9840
+  Dimension 2: 39 simplices
+    Filtration - min: 0.0040, median: 0.1460, max: 0.9990
+  Dimension 3: 29 simplices
+    Filtration - min: 0.0100, median: 0.2270, max: 0.9990
+
+Top 5 simplices by dimension (lowest filtration):
+
+  Dimension 1:
+    (5, 3): filtration = 0.0020
+    (5, 7): filtration = 0.0040
+    (7, 3): filtration = 0.0040
+    (7, 0): filtration = 0.0050
+    (7, 1): filtration = 0.0050
+
+  Dimension 2:
+    (5, 7, 3): filtration = 0.0040
+    (5, 7, 1): filtration = 0.0060
+    (5, 3, 1): filtration = 0.0100
+    (7, 3, 1): filtration = 0.0100
+    (3, 7, 1): filtration = 0.0130
+
+  Dimension 3:
+    (5, 7, 3, 1): filtration = 0.0100
+    (5, 7, 1, 3): filtration = 0.0170
+    (0, 7, 1, 3): filtration = 0.1460
+    (0, 7, 3, 1): filtration = 0.1460
+    (3, 7, 0, 1): filtration = 0.1460
+
+================================================================================
+
+
+================================================================================
+SUMMARY: Q2 one-hot
+================================================================================
+
+Total simplices: 419
+Unique neurons: 8
+Max dimension: 4
+
+Simplices by dimension:
+  Dimension 0: 8 simplices
+    Filtration - min: 0.0000, median: 0.0000, max: 0.0000
+  Dimension 1: 29 simplices
+    Filtration - min: 0.0030, median: 0.0060, max: 0.9860
+  Dimension 2: 82 simplices
+    Filtration - min: 0.0040, median: 0.0070, max: 0.9860
+  Dimension 3: 156 simplices
+    Filtration - min: 0.0060, median: 0.0080, max: 0.9860
+  Dimension 4: 144 simplices
+    Filtration - min: 0.0060, median: 0.0080, max: 0.9860
+
+Top 5 simplices by dimension (lowest filtration):
+
+  Dimension 1:
+    (7, 1): filtration = 0.0030
+    (7, 2): filtration = 0.0030
+    (7, 3): filtration = 0.0030
+    (7, 5): filtration = 0.0030
+    (5, 1): filtration = 0.0040
+
+  Dimension 2:
+    (5, 7, 1): filtration = 0.0040
+    (5, 7, 2): filtration = 0.0040
+    (5, 7, 3): filtration = 0.0040
+    (7, 5, 1): filtration = 0.0040
+    (7, 5, 2): filtration = 0.0040
+
+  Dimension 3:
+    (2, 3, 5, 1): filtration = 0.0060
+    (2, 3, 5, 7): filtration = 0.0060
+    (2, 3, 7, 1): filtration = 0.0060
+    (2, 3, 7, 5): filtration = 0.0060
+    (2, 5, 3, 1): filtration = 0.0060
+
+  Dimension 4:
+    (2, 3, 5, 7, 1): filtration = 0.0060
+    (2, 3, 7, 5, 1): filtration = 0.0060
+    (2, 5, 3, 7, 1): filtration = 0.0060
+    (2, 5, 7, 3, 1): filtration = 0.0060
+    (2, 7, 3, 5, 1): filtration = 0.0060
+
+================================================================================
+
+
+================================================================================
+SUMMARY: Q3 one-hot
+================================================================================
+
+Total simplices: 38
+Unique neurons: 8
+Max dimension: 2
+
+Simplices by dimension:
+  Dimension 0: 8 simplices
+    Filtration - min: 0.0000, median: 0.0000, max: 0.0000
+  Dimension 1: 15 simplices
+    Filtration - min: 0.0040, median: 0.1160, max: 0.9210
+  Dimension 2: 15 simplices
+    Filtration - min: 0.0830, median: 0.4640, max: 0.6360
+
+Top 5 simplices by dimension (lowest filtration):
+
+  Dimension 1:
+    (5, 6): filtration = 0.0040
+    (7, 2): filtration = 0.0050
+    (7, 0): filtration = 0.0070
+    (5, 2): filtration = 0.0080
+    (2, 5): filtration = 0.0120
+
+  Dimension 2:
+    (5, 7, 2): filtration = 0.0830
+    (5, 2, 7): filtration = 0.2240
+    (2, 5, 7): filtration = 0.2330
+    (2, 7, 0): filtration = 0.3810
+    (7, 2, 0): filtration = 0.3810
+
+================================================================================
+
+
+================================================================================
+SUMMARY: Q4 one-hot
+================================================================================
+
+Total simplices: 27
+Unique neurons: 8
+Max dimension: 2
+
+Simplices by dimension:
+  Dimension 0: 8 simplices
+    Filtration - min: 0.0000, median: 0.0000, max: 0.0000
+  Dimension 1: 13 simplices
+    Filtration - min: 0.0010, median: 0.1510, max: 0.9950
+  Dimension 2: 6 simplices
+    Filtration - min: 0.0030, median: 0.4520, max: 0.8990
+
+Top 5 simplices by dimension (lowest filtration):
+
+  Dimension 1:
+    (5, 0): filtration = 0.0010
+    (5, 7): filtration = 0.0010
+    (7, 0): filtration = 0.0030
+    (7, 5): filtration = 0.0030
+    (0, 7): filtration = 0.0050
+
+  Dimension 2:
+    (5, 7, 0): filtration = 0.0030
+    (7, 5, 0): filtration = 0.0030
+    (5, 0, 7): filtration = 0.0050
+    (0, 5, 7): filtration = 0.8990
+    (0, 7, 5): filtration = 0.8990
+
+================================================================================

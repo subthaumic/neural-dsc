@@ -1,0 +1,53 @@
+{
+  "contexts": [
+    {
+      "acceptance_rate": 0.00025406504065040653,
+      "achievable_purity": 1.0,
+      "context": "twohot_01",
+      "mean_purity": 0.9964509010314941,
+      "min_purity": 0.9900585412979126,
+      "n_accepted": 128.0,
+      "n_attempts": 503808.0,
+      "n_requested": 128.0,
+      "threshold": 0.99,
+      "tolerance": 0.01
+    },
+    {
+      "acceptance_rate": 0.00019409937888198756,
+      "achievable_purity": 1.0,
+      "context": "twohot_03",
+      "mean_purity": 0.9966393113136292,
+      "min_purity": 0.9900848865509033,
+      "n_accepted": 128.0,
+      "n_attempts": 659456.0,
+      "n_requested": 128.0,
+      "threshold": 0.99,
+      "tolerance": 0.01
+    },
+    {
+      "acceptance_rate": 0.00022007042253521127,
+      "achievable_purity": 1.0,
+      "context": "twohot_12",
+      "mean_purity": 0.9968159198760986,
+      "min_purity": 0.9901832342147827,
+      "n_accepted": 128.0,
+      "n_attempts": 581632.0,
+      "n_requested": 128.0,
+      "threshold": 0.99,
+      "tolerance": 0.01
+    },
+    {
+      "acceptance_rate": 0.00015862944162436547,
+      "achievable_purity": 1.0,
+      "context": "twohot_23",
+      "mean_purity": 0.9969203472137451,
+      "min_purity": 0.9900765419006348,
+      "n_accepted": 128.0,
+      "n_attempts": 806912.0,
+      "n_requested": 128.0,
+      "threshold": 0.99,
+      "tolerance": 0.01
+    }
+  ],
+  "output_space": "softmax_probabilities"
+}

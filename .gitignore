@@ -218,3 +218,6 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# The run logs of the article's experiments are part of the record
+!results/**/*.log

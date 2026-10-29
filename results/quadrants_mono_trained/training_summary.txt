@@ -1,0 +1,17 @@
+Trained mono-capacity quadrant classifier
+layer_sizes: [2, 4, 4, 4]
+train_sampling: fresh_uniform_draws_per_minibatch
+train_draws_per_epoch: 10000
+total_train_draws: 2000000
+train_data_seed: 42
+eval_size: 100000
+eval_data_seed: 43
+model_seed: 1
+train_epochs: 200
+train_batch_size: 256
+train_learning_rate: 0.005
+final_epoch_train_loss: 0.004653
+eval_accuracy: 0.998750
+eval_loss: 0.004542
+checkpoint_sha256: 23b724206a03789c66f2886f6758583d13cf18cc0a6465602dfdf37b6200eb70
+checkpoint_reused: False

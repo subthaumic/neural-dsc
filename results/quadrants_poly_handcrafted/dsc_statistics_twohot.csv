@@ -1,0 +1,5 @@
+label,total_simplices,max_dimension,total_vertices,dim0_count,dim0_filt_min,dim0_filt_median,dim0_filt_max,dim0_filt_mean,dim1_count,dim1_filt_min,dim1_filt_median,dim1_filt_max,dim1_filt_mean,dim2_count,dim2_filt_min,dim2_filt_median,dim2_filt_max,dim2_filt_mean
+Q1+Q2,15,2,7,7,0.0,0.0,0.0,0.0,6,0.004,0.004,0.987,0.3316666666666666,2,0.987,0.987,0.987,0.987
+Q1+Q4,15,2,7,7,0.0,0.0,0.0,0.0,6,0.001,0.001,0.001,0.001,2,0.001,0.001,0.001,0.001
+Q2+Q3,11,1,7,7,0.0,0.0,0.0,0.0,4,0.003,0.003,0.003,0.003,0,,,,
+Q3+Q4,15,2,7,7,0.0,0.0,0.0,0.0,6,0.001,0.001,0.001,0.001,2,0.001,0.001,0.001,0.001

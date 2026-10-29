@@ -1,0 +1,9 @@
+architecture,class,dt_ordering_preserved_all,dt_total_inversions,tolerance_reference,tolerance_loosest_matching_reference,tolerance_rows_skipped
+mono_handcrafted,0,False,7,0.0,0.05,[]
+mono_handcrafted,1,False,9,0.0,0.1,[]
+mono_handcrafted,2,False,6,0.0,0.1,[]
+mono_handcrafted,3,False,8,0.0,0.1,[]
+poly_handcrafted,0,True,0,0.0,0.1,[]
+poly_handcrafted,1,True,0,0.001,0.1,[0.0]
+poly_handcrafted,2,True,0,0.0,0.1,[]
+poly_handcrafted,3,True,0,0.001,0.1,[0.0]

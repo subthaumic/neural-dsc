@@ -1,0 +1,395 @@
+
+================================================================================
+SUMMARY: poly_handcrafted/Q2/dt=0.005
+================================================================================
+
+Total simplices: 17
+Unique neurons: 7
+Max dimension: 3
+
+Simplices by dimension:
+  Dimension 0: 7 simplices
+    Filtration - min: 0.0000, median: 0.0000, max: 0.0000
+  Dimension 1: 8 simplices
+    Filtration - min: 0.0030, median: 0.0765, max: 0.5930
+  Dimension 2: 2 simplices
+    Filtration - min: 0.5930, median: 0.5930, max: 0.5930
+  Dimension 3: 0 simplices
+
+Top 5 simplices by dimension (lowest filtration):
+
+  Dimension 1:
+    (1, 4): filtration = 0.0030
+    (4, 1): filtration = 0.0030
+    (2, 5): filtration = 0.0530
+    (5, 2): filtration = 0.0530
+    (0, 3): filtration = 0.1000
+
+  Dimension 2:
+    (1, 4, 6): filtration = 0.5930
+    (4, 1, 6): filtration = 0.5930
+
+================================================================================
+
+
+================================================================================
+SUMMARY: poly_handcrafted/Q2/dt=0.01
+================================================================================
+
+Total simplices: 17
+Unique neurons: 7
+Max dimension: 3
+
+Simplices by dimension:
+  Dimension 0: 7 simplices
+    Filtration - min: 0.0000, median: 0.0000, max: 0.0000
+  Dimension 1: 8 simplices
+    Filtration - min: 0.0030, median: 0.0765, max: 0.5920
+  Dimension 2: 2 simplices
+    Filtration - min: 0.5920, median: 0.5920, max: 0.5920
+  Dimension 3: 0 simplices
+
+Top 5 simplices by dimension (lowest filtration):
+
+  Dimension 1:
+    (1, 4): filtration = 0.0030
+    (4, 1): filtration = 0.0030
+    (2, 5): filtration = 0.0530
+    (5, 2): filtration = 0.0530
+    (0, 3): filtration = 0.1000
+
+  Dimension 2:
+    (1, 4, 6): filtration = 0.5920
+    (4, 1, 6): filtration = 0.5920
+
+================================================================================
+
+
+================================================================================
+SUMMARY: poly_handcrafted/Q2/dt=0.02
+================================================================================
+
+Total simplices: 17
+Unique neurons: 7
+Max dimension: 3
+
+Simplices by dimension:
+  Dimension 0: 7 simplices
+    Filtration - min: 0.0000, median: 0.0000, max: 0.0000
+  Dimension 1: 8 simplices
+    Filtration - min: 0.0030, median: 0.0765, max: 0.5900
+  Dimension 2: 2 simplices
+    Filtration - min: 0.5900, median: 0.5900, max: 0.5900
+  Dimension 3: 0 simplices
+
+Top 5 simplices by dimension (lowest filtration):
+
+  Dimension 1:
+    (1, 4): filtration = 0.0030
+    (4, 1): filtration = 0.0030
+    (2, 5): filtration = 0.0530
+    (5, 2): filtration = 0.0530
+    (0, 3): filtration = 0.1000
+
+  Dimension 2:
+    (1, 4, 6): filtration = 0.5900
+    (4, 1, 6): filtration = 0.5900
+
+================================================================================
+
+
+================================================================================
+SUMMARY: poly_handcrafted/Q2/dt=0.05
+================================================================================
+
+Total simplices: 17
+Unique neurons: 7
+Max dimension: 3
+
+Simplices by dimension:
+  Dimension 0: 7 simplices
+    Filtration - min: 0.0000, median: 0.0000, max: 0.0000
+  Dimension 1: 8 simplices
+    Filtration - min: 0.0030, median: 0.0765, max: 0.5840
+  Dimension 2: 2 simplices
+    Filtration - min: 0.5840, median: 0.5840, max: 0.5840
+  Dimension 3: 0 simplices
+
+Top 5 simplices by dimension (lowest filtration):
+
+  Dimension 1:
+    (1, 4): filtration = 0.0030
+    (4, 1): filtration = 0.0030
+    (2, 5): filtration = 0.0530
+    (5, 2): filtration = 0.0530
+    (0, 3): filtration = 0.1000
+
+  Dimension 2:
+    (1, 4, 6): filtration = 0.5840
+    (4, 1, 6): filtration = 0.5840
+
+================================================================================
+
+
+================================================================================
+SUMMARY: poly_handcrafted/Q2/dt=0.1
+================================================================================
+
+Total simplices: 17
+Unique neurons: 7
+Max dimension: 3
+
+Simplices by dimension:
+  Dimension 0: 7 simplices
+    Filtration - min: 0.0000, median: 0.0000, max: 0.0000
+  Dimension 1: 8 simplices
+    Filtration - min: 0.0030, median: 0.0765, max: 0.5840
+  Dimension 2: 2 simplices
+    Filtration - min: 0.5840, median: 0.5840, max: 0.5840
+  Dimension 3: 0 simplices
+
+Top 5 simplices by dimension (lowest filtration):
+
+  Dimension 1:
+    (1, 4): filtration = 0.0030
+    (4, 1): filtration = 0.0030
+    (2, 5): filtration = 0.0530
+    (5, 2): filtration = 0.0530
+    (0, 3): filtration = 0.1000
+
+  Dimension 2:
+    (1, 4, 6): filtration = 0.5840
+    (4, 1, 6): filtration = 0.5840
+
+================================================================================
+
+
+================================================================================
+SUMMARY: poly_handcrafted/Q2/dt=0.2
+================================================================================
+
+Total simplices: 17
+Unique neurons: 7
+Max dimension: 3
+
+Simplices by dimension:
+  Dimension 0: 7 simplices
+    Filtration - min: 0.0000, median: 0.0000, max: 0.0000
+  Dimension 1: 8 simplices
+    Filtration - min: 0.0030, median: 0.0765, max: 0.5630
+  Dimension 2: 2 simplices
+    Filtration - min: 0.5630, median: 0.5630, max: 0.5630
+  Dimension 3: 0 simplices
+
+Top 5 simplices by dimension (lowest filtration):
+
+  Dimension 1:
+    (1, 4): filtration = 0.0030
+    (4, 1): filtration = 0.0030
+    (2, 5): filtration = 0.0530
+    (5, 2): filtration = 0.0530
+    (0, 3): filtration = 0.1000
+
+  Dimension 2:
+    (1, 4, 6): filtration = 0.5630
+    (4, 1, 6): filtration = 0.5630
+
+================================================================================
+
+
+================================================================================
+SUMMARY: poly_handcrafted/Q2/dt=0.5
+================================================================================
+
+Total simplices: 17
+Unique neurons: 7
+Max dimension: 3
+
+Simplices by dimension:
+  Dimension 0: 7 simplices
+    Filtration - min: 0.0000, median: 0.0000, max: 0.0000
+  Dimension 1: 8 simplices
+    Filtration - min: 0.0030, median: 0.0765, max: 0.5150
+  Dimension 2: 2 simplices
+    Filtration - min: 0.5260, median: 0.5260, max: 0.5260
+  Dimension 3: 0 simplices
+
+Top 5 simplices by dimension (lowest filtration):
+
+  Dimension 1:
+    (1, 4): filtration = 0.0030
+    (4, 1): filtration = 0.0030
+    (2, 5): filtration = 0.0530
+    (5, 2): filtration = 0.0530
+    (0, 3): filtration = 0.1000
+
+  Dimension 2:
+    (1, 4, 6): filtration = 0.5260
+    (4, 1, 6): filtration = 0.5260
+
+================================================================================
+
+
+================================================================================
+SUMMARY: poly_handcrafted/Q2/tolerance=0.001
+================================================================================
+
+Total simplices: 17
+Unique neurons: 7
+Max dimension: 3
+
+Simplices by dimension:
+  Dimension 0: 7 simplices
+    Filtration - min: 0.0000, median: 0.0000, max: 0.0000
+  Dimension 1: 8 simplices
+    Filtration - min: 0.0030, median: 0.0725, max: 0.5570
+  Dimension 2: 2 simplices
+    Filtration - min: 0.5570, median: 0.5570, max: 0.5570
+  Dimension 3: 0 simplices
+
+Top 5 simplices by dimension (lowest filtration):
+
+  Dimension 1:
+    (1, 4): filtration = 0.0030
+    (4, 1): filtration = 0.0030
+    (0, 3): filtration = 0.0330
+    (3, 0): filtration = 0.0330
+    (2, 5): filtration = 0.1120
+
+  Dimension 2:
+    (1, 4, 6): filtration = 0.5570
+    (4, 1, 6): filtration = 0.5570
+
+================================================================================
+
+
+================================================================================
+SUMMARY: poly_handcrafted/Q2/tolerance=0.005
+================================================================================
+
+Total simplices: 17
+Unique neurons: 7
+Max dimension: 3
+
+Simplices by dimension:
+  Dimension 0: 7 simplices
+    Filtration - min: 0.0000, median: 0.0000, max: 0.0000
+  Dimension 1: 8 simplices
+    Filtration - min: 0.0030, median: 0.0530, max: 0.5660
+  Dimension 2: 2 simplices
+    Filtration - min: 0.5660, median: 0.5660, max: 0.5660
+  Dimension 3: 0 simplices
+
+Top 5 simplices by dimension (lowest filtration):
+
+  Dimension 1:
+    (1, 4): filtration = 0.0030
+    (4, 1): filtration = 0.0030
+    (2, 5): filtration = 0.0410
+    (5, 2): filtration = 0.0410
+    (0, 3): filtration = 0.0650
+
+  Dimension 2:
+    (1, 4, 6): filtration = 0.5660
+    (4, 1, 6): filtration = 0.5660
+
+================================================================================
+
+
+================================================================================
+SUMMARY: poly_handcrafted/Q2/tolerance=0.01
+================================================================================
+
+Total simplices: 17
+Unique neurons: 7
+Max dimension: 3
+
+Simplices by dimension:
+  Dimension 0: 7 simplices
+    Filtration - min: 0.0000, median: 0.0000, max: 0.0000
+  Dimension 1: 8 simplices
+    Filtration - min: 0.0030, median: 0.0765, max: 0.5920
+  Dimension 2: 2 simplices
+    Filtration - min: 0.5920, median: 0.5920, max: 0.5920
+  Dimension 3: 0 simplices
+
+Top 5 simplices by dimension (lowest filtration):
+
+  Dimension 1:
+    (1, 4): filtration = 0.0030
+    (4, 1): filtration = 0.0030
+    (2, 5): filtration = 0.0530
+    (5, 2): filtration = 0.0530
+    (0, 3): filtration = 0.1000
+
+  Dimension 2:
+    (1, 4, 6): filtration = 0.5920
+    (4, 1, 6): filtration = 0.5920
+
+================================================================================
+
+
+================================================================================
+SUMMARY: poly_handcrafted/Q2/tolerance=0.05
+================================================================================
+
+Total simplices: 17
+Unique neurons: 7
+Max dimension: 3
+
+Simplices by dimension:
+  Dimension 0: 7 simplices
+    Filtration - min: 0.0000, median: 0.0000, max: 0.0000
+  Dimension 1: 8 simplices
+    Filtration - min: 0.0030, median: 0.0910, max: 0.5980
+  Dimension 2: 2 simplices
+    Filtration - min: 0.5980, median: 0.5980, max: 0.5980
+  Dimension 3: 0 simplices
+
+Top 5 simplices by dimension (lowest filtration):
+
+  Dimension 1:
+    (1, 4): filtration = 0.0030
+    (4, 1): filtration = 0.0030
+    (2, 5): filtration = 0.0570
+    (5, 2): filtration = 0.0570
+    (0, 3): filtration = 0.1250
+
+  Dimension 2:
+    (1, 4, 6): filtration = 0.5980
+    (4, 1, 6): filtration = 0.5980
+
+================================================================================
+
+
+================================================================================
+SUMMARY: poly_handcrafted/Q2/tolerance=0.1
+================================================================================
+
+Total simplices: 17
+Unique neurons: 7
+Max dimension: 3
+
+Simplices by dimension:
+  Dimension 0: 7 simplices
+    Filtration - min: 0.0000, median: 0.0000, max: 0.0000
+  Dimension 1: 8 simplices
+    Filtration - min: 0.0040, median: 0.1020, max: 0.5950
+  Dimension 2: 2 simplices
+    Filtration - min: 0.5950, median: 0.5950, max: 0.5950
+  Dimension 3: 0 simplices
+
+Top 5 simplices by dimension (lowest filtration):
+
+  Dimension 1:
+    (1, 4): filtration = 0.0040
+    (4, 1): filtration = 0.0040
+    (2, 5): filtration = 0.0710
+    (5, 2): filtration = 0.0710
+    (0, 3): filtration = 0.1330
+
+  Dimension 2:
+    (1, 4, 6): filtration = 0.5950
+    (4, 1, 6): filtration = 0.5950
+
+================================================================================

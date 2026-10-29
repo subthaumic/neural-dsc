@@ -1,0 +1,7 @@
+{
+  "dt_ordering_preserved_all": false,
+  "dt_total_inversions": 7,
+  "tolerance_reference": 0.0,
+  "tolerance_loosest_matching_reference": 0.05,
+  "tolerance_rows_skipped": []
+}

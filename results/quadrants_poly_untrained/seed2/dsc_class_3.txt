@@ -1,0 +1,37 @@
+# Filtered Directed Simplicial Complex
+Total simplices: 19
+Dimension 0: 7 simplices
+Dimension 1: 6 simplices
+Dimension 2: 6 simplices
+Dimension 3: 0 simplices
+## Dimension 0
+
+(0), 0.000000
+(1), 0.000000
+(2), 0.000000
+(3), 0.000000
+(4), 0.000000
+(5), 0.000000
+(6), 0.000000
+
+## Dimension 1
+
+(5,2), 0.004000
+(2,5), 0.011000
+(5,0), 0.014000
+(0,5), 0.024000
+(0,2), 0.028000
+(2,0), 0.041000
+
+## Dimension 2
+
+(0,5,2), 0.028000
+(5,0,2), 0.028000
+(2,5,0), 0.041000
+(5,2,0), 0.041000
+(0,2,5), 0.087000
+(2,0,5), 0.087000
+
+## Dimension 3
+
+

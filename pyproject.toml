@@ -1,0 +1,50 @@
+[build-system]
+requires = ["setuptools >=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "neural-dsc"
+version = "1.0.0"
+description = "Filtered directed simplicial complexes of neural networks: code for The Tangled Web They Weave (NeurReps 2026)."
+authors = [
+  { name = "Michael Bleher", email = "mbleher@mathi.uni-heidelberg.de" },
+]
+license = { file = "LICENSE" }
+readme = "README.md"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+requires-python = ">=3.10"
+# Pinned to the versions the article's results were computed with.
+dependencies = [
+    "matplotlib==3.9.2",
+    "networkx==3.4.2",
+    "numpy==2.2.6",
+    "pandas==2.2.3",
+    "scipy==1.14.1",
+    "torch==2.6.0",
+]
+
+[dependency-groups]
+dev = [
+    "pytest==7.4.0",
+]
+
+# CPU-only PyTorch wheels: the experiments need no GPU, and the default wheel
+# pulls several GB of CUDA packages.
+[tool.uv.sources]
+torch = { index = "pytorch-cpu" }
+
+[[tool.uv.index]]
+name = "pytorch-cpu"
+url = "https://download.pytorch.org/whl/cpu"
+explicit = true
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+namespaces = false

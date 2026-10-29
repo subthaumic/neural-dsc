@@ -1,0 +1,92 @@
+{
+  "output_dir": "results/hyperparameter_sweep",
+  "started_at": "2026-08-24T12:46:12",
+  "finished_at": "2026-08-24T12:46:13",
+  "runtime_seconds": 1.1053977012634277,
+  "runtime_minutes": 0.018423295021057128,
+  "n_probe_points": 128,
+  "relevance_margin": 0.01,
+  "relevance_scale": "std",
+  "probe_tolerance": 0.01,
+  "probe_seed": 20260819,
+  "probe_seed_rule": "base + 1000*class + n_points",
+  "max_dimension": 7,
+  "max_iterations": 1000,
+  "n_workers": 4,
+  "outer_workers": 4,
+  "inner_workers_per_construction": 1,
+  "dt_values": [
+    0.005,
+    0.01,
+    0.02,
+    0.05,
+    0.1,
+    0.2,
+    0.5
+  ],
+  "probe_tolerance_values": [
+    0.0,
+    0.001,
+    0.005,
+    0.01,
+    0.05,
+    0.1
+  ],
+  "default_alpha": 0.01,
+  "default_dt": 0.01,
+  "default_fdr": "bonferroni",
+  "architectures": [
+    "mono_handcrafted",
+    "poly_handcrafted"
+  ],
+  "classes": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "context_count": 8,
+  "contexts": [
+    {
+      "architecture": "mono_handcrafted",
+      "class": 0,
+      "context_dir": "mono_handcrafted/class_0"
+    },
+    {
+      "architecture": "mono_handcrafted",
+      "class": 1,
+      "context_dir": "mono_handcrafted/class_1"
+    },
+    {
+      "architecture": "mono_handcrafted",
+      "class": 2,
+      "context_dir": "mono_handcrafted/class_2"
+    },
+    {
+      "architecture": "mono_handcrafted",
+      "class": 3,
+      "context_dir": "mono_handcrafted/class_3"
+    },
+    {
+      "architecture": "poly_handcrafted",
+      "class": 0,
+      "context_dir": "poly_handcrafted/class_0"
+    },
+    {
+      "architecture": "poly_handcrafted",
+      "class": 1,
+      "context_dir": "poly_handcrafted/class_1"
+    },
+    {
+      "architecture": "poly_handcrafted",
+      "class": 2,
+      "context_dir": "poly_handcrafted/class_2"
+    },
+    {
+      "architecture": "poly_handcrafted",
+      "class": 3,
+      "context_dir": "poly_handcrafted/class_3"
+    }
+  ],
+  "output_layout": "per-context outputs live under {architecture}/class_{idx}/; root CSV/JSON files aggregate all contexts"
+}

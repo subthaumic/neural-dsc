@@ -1,0 +1,6 @@
+probe_tolerance,reference_probe_tolerance,immediate_threshold,immediate_simplices,reference_immediate_simplices,intersection,union,immediate_jaccard_distance_vs_reference,jaccard_distance_vs_reference,matches_reference,acceptance_rate,min_purity
+0.001,0.001,0.01,4,4,4,4,0.0,0.0,True,0.015055338541666666,0.9990203976631165
+0.005,0.001,0.01,4,4,4,4,0.0,0.19259074259074258,True,0.02880859375,0.9951704144477844
+0.01,0.001,0.01,4,4,4,4,0.0,0.05810855810855811,True,0.037841796875,0.990144670009613
+0.05,0.001,0.01,4,4,4,4,0.0,0.04616217116217117,True,0.08203125,0.950681209564209
+0.1,0.001,0.01,4,4,4,4,0.0,0.04587079587079588,True,0.1103515625,0.900272011756897
